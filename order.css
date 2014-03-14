@@ -1,0 +1,2126 @@
+﻿/* 订单页样式表 最后修改日期20140314 */
+
+/*sprite*/
+.pd_photoCont .btn,.forms .borderBox .destination i,.HotelDetail_slide .close,.pkg-circle-prev,.pkg-circle-next,.teamDetail .downloadList i{
+	background:url(/static/images/sprite_global.png) no-repeat;
+	_background:url(/static/images/sprite_global_ie6.png) no-repeat;
+}
+.teamDetail .abicon,.travel_list a,.travel_list .wifi,.travel_list .traffic{
+	background:url(/static/images/sprite_icon.png) no-repeat;
+}
+/*sprite*/
+
+/*提交按钮*/
+.submit{
+	background-color:#FF5C00;
+}
+/*提交按钮*/
+
+.listContent td{
+	word-break:break-all;
+}
+
+/*预订步骤*/
+.flow-steps{
+	position:absolute;
+	overflow: hidden;
+	margin: 20px 0;
+	clear:both
+}
+.flow-steps li{
+	float: left;
+	background: #EBEBEB url(/static/images/flow_steps_bg.png) no-repeat 100% 0;
+	font-size: 14px;
+	font-weight: bold;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	color: #404040;
+	padding: 0 15px 0 0;
+	overflow: hidden;
+	width:230px
+}
+.flow-steps-five li{
+	width:181px
+}
+.flow-steps-six li{
+	width:148px
+}
+.flow-steps li span{
+	color:#999;
+}
+.flow-steps li.current .first{
+	background-color: #690;
+	background-position: -12px -92px;
+	background: #690 url(/static/images/flow_steps_bg.png) no-repeat -12px -69px;
+}
+.flow-steps li.last{
+	background: #EBEBEB;
+}
+.flow-steps li.current{
+	background-color: #690;
+}
+.flow-steps li.current span{
+	color:#FFF;
+}
+.flow-steps li.done{
+	background-position:100% -23px;
+}
+/*预订步骤*/
+
+/*产品列表+详情页*/
+.detail .info{
+	background-color:#F4F4F4;
+}
+.detail .info .submitBtn{
+	height:50px;
+	margin-top:15px;
+}
+/*产品列表+详情页*/
+
+
+/*详情页产品矩形排列布局*/
+.detail .pdCont {
+	width:980px;
+	overflow:hidden;
+	padding:0;
+}
+.detail .grid_view {
+	width:1000px;
+}
+.detail .grid_view .inner {
+	margin:15px auto;
+	width:226px;
+	height:255px;
+}
+.detail .grid_view .link {
+	background-color:#FF8989;
+}
+.detail .grid_view .link:hover {
+	background-color:#FF4343;
+}
+.detail .tabContent .hover {
+	height:auto;
+}
+.detail .pdCont {
+	height:350px;
+}
+/*详情页产品矩形排列布局*/
+
+/*预定详情页面*/
+.mainDetail{
+	position:relative;
+	padding:15px 0;
+	margin-top:40px;
+}
+.mainDetail .flow-steps{
+	right:0;
+	top:-50px;
+}
+.mainDetail .summary{
+	margin-bottom:5px;
+}
+.mainDetail .baiduShare{
+	float:right;
+}
+.mainDetail .lfColumn{
+	width:490px;
+}
+.mainDetail .rgColumn{
+	width:470px;
+	margin-left:20px;
+	overflow:visible;
+}
+.mainDetail .pd_photoCont .btn{
+	height:43px;
+	width:27px;
+}
+.mainDetail .pd_Photo{
+	width:488px;
+	height:365px;
+	border:1px solid #CCC;
+}
+.mainDetail .pd_Photo img{
+	max-width:488px;
+	max-height:366px;
+	_width: expression((this.width / this.height>= 1.3333) ? '490px':'auto');
+	_height: expression((this.width / this.height < 1.3333) ? '366px':'auto');
+	vertical-align:middle;
+}
+.mainDetail .pd_Photo dt{
+	width:488px;
+	height:366px;
+	overflow:hidden;
+	float:left;
+	text-align:center; 
+	line-height:364px;
+	*line-height:366px;
+	*font-size:327px;
+}
+.mainDetail .pd_Photo dt:after{
+	content:' ';
+	vertical-align:middle;
+}
+.mainDetail .ticketCont .attr li{
+	width:auto;
+	_display:inline-block;
+}
+/*预定详情页面*/
+
+/*线路图片轮换图*/
+.pd_photoCont{
+	position:relative;
+	margin-top:25px;
+}
+.pd_photoCont .btn{
+	position:absolute;
+	display:block;
+	top:165px;
+	cursor:default;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+.pd_photoCont .lfBtn{
+	left:5px;
+	background-position:0 -497px;
+}
+.pd_photoCont .rgBtn{
+	right:5px;
+	background-position:-32px -497px;
+}
+.pd_Photo{
+	overflow:hidden;
+	position:relative;
+}
+.pd_Photo ul{
+	position:absolute;
+}
+.pd_Photo ul li{
+	float:left;
+}
+/*线路图片轮换图*/
+
+/*预订帮助*/
+.orderHelp{
+	margin-top:20px;
+}
+.orderHelp .helpCont li{
+	float:left;
+	margin-bottom:2px;
+}
+.orderHelp .helpCont li a{
+	display:block;
+	width:119px;
+	height:70px;
+	line-height:70px;
+	border:1px solid #9dbc67;
+	border-top:5px solid #9dbc67;
+	text-align:center;
+	margin:0 1px;
+	font-size:20px;
+	color:#9DBC67;
+	font-weight:bold;
+	font-family:"Microsoft Yahei";
+}
+.orderHelp .helpCont li.hover a,.orderHelp .helpCont li a:hover{
+	text-decoration:none;
+	color:#690;
+	border-color:#690;
+}
+.orderHelp .caution .tips{
+	display:block;
+}
+.orderHelp .tips{
+	display:none;
+}
+.orderHelp .visible{
+	display:block;
+}
+/*预订帮助*/
+
+/*日历 旧*/
+/* .calendar{
+	font-family:Verdana, "SimSun";
+}
+.calendar .tab {
+	height:25px;
+	position:relative;
+	z-index:999;
+}
+.calendar .tab ul li{
+	float:left;
+	height: 24px;
+	text-align: center;
+	padding:0 10px;
+	cursor: pointer;
+	line-height: 24px;
+	color:#999;
+}
+.calendar .tab ul .curr{
+	border-width: 1px 1px 0px 1px;
+	border-style:solid;
+	border-color:#CCC #CCC transparent #CCC;
+	background: #fff;
+	font-weight: bold;
+	color:#690;
+}
+.calendar .timeTable{
+	border: 1px solid #CCC;
+	padding:1px;
+	margin-top:-1px;
+}
+.calendar .hover{
+	display:block;
+}
+.calendar .timeTable dl dt{
+	float:left;
+	width:64px;
+	text-align:center;
+	background-color:#690;
+	color:#FFF;
+	margin-right:1px;
+	padding:5px 0;
+}
+.calendar .timeTable dl dt.last,.calendar .timeTable dl dd.last{
+	margin-right:0;
+}
+.calendar .timeTable dl dd{
+	float:left;
+	width:54px;
+	height:54px;
+	padding:5px;
+	background-color:#DDEAC6;
+	margin:1px 1px 0 0;
+	color:#416600;
+	display:block;
+	position:relative;
+}
+.calendar .timeTable dl .pq{
+	cursor:pointer;
+	position:relative;
+}
+.calendar .timeTable dl dd.first,.calendar .timeTable dl dd.last{
+	background-color:#CCE99A;
+}
+.calendar .timeTable dl dd a{
+	cursor:pointer;
+	color:#FF4B4B;
+	font-weight:bold;
+	text-decoration:underline;
+}
+.calendar .timeTable dl dd a:hover{
+	color:#FF4B4B;
+}
+.calendar .timeTable dl dd .price{
+	position:absolute;
+	left:5px;
+	bottom:5px;
+}
+.calendar .timeTable dl dd span{
+	background-color:#FF4B4B;
+	color:#FFF;
+	padding:1px 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius:3px;
+	line-height:1.3em;
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+.calendar .timeTable dl dd p{
+	color:#FF4B4B;
+	margin:5px 0 0px 0;
+	text-align:right;
+}
+.calendar .timeTable dl dd.select{
+	background-color:#FF4B4B;
+}
+.calendar .timeTable dl .select span{
+	background-color:#FFF;
+	color:#FF4B4B;
+}
+.calendar .timeTable dl .select a,.calendar .timeTable dl .select a:hover,.calendar .timeTable dl .select p{
+	color:#FFF;
+} */
+/*日历 旧*/
+
+/*日历 */
+.calendarContent{
+	width:470px;
+	min-height:365px;
+	margin-top:25px;
+	position:relative;
+	overflow:hidden;
+}
+.calendarContent .month{
+	position:absolute;
+	z-index:1;
+	font-size:90px;
+	font-weight:bold;
+	font-family:'microsoft yahei';
+	color:#E6E6E6;
+	width:100%;
+	padding:30% 0;
+	text-align:center;
+}
+.calendarloading{
+	width:468px;
+	height:365px;
+	border:1px solid #CCC;
+	position:relative;
+}
+/* .calendarloading .loadingtips{
+	width:100px;
+	height:18px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-9px 0 0 -50px;
+}
+.calendarloading .preloader{
+	width: 18px;
+	height: 18px;
+	background: url(/static/images/preloader_18x18.gif);
+	float:left;
+}
+.calendarloading .tx{
+	height: 18px;
+	line-height:18px;
+	float:left;
+	margin-left:5px;
+} */
+.calendar{
+	width:468px;
+	border:1px solid #CCC;
+	position:relative;
+	z-index:2;
+}
+.calendar th{
+	height:25px;
+}
+.calendar .monthRow th{
+	border-bottom:1px solid #CCC;
+}
+.calendar .preMonth,.calendar .nextMonth,.calendar .thisMonth{
+	float:left;
+	width:66px;
+	height:25px;
+	line-height:25px;
+	display:block;
+	cursor:pointer;
+}
+.calendar .preMonth:hover,.calendar .nextMonth:hover,.calendar .thisMonth:hover{
+	color:#FF8700;
+	text-decoration:none;
+}
+.calendar .thisMonth{
+	width:34px;
+	height:19px;
+	line-height:19px;
+	background-color:#E4E4E4;
+	margin:3px 0 auto 28px;
+	color:#333;
+	border-radius:3px;
+	font-weight:normal;
+}
+.calendar .thisMonth:hover{
+	background-color:#D3D3D3;
+	color:#333;	
+}
+.calendar .fulltime{
+	float:left;
+	width:270px;
+	height:25px;
+	line-height:25px;
+}
+.calendar .weekRow th{
+	font-weight:normal;
+}
+.calendar tr td{
+	width:58px;
+	height:54px;
+	vertical-align:top;
+	padding:4px;
+	border:1px solid #CCC;
+	color:#690;	
+}
+.calendar tr .weekend{
+	/* background-color:#F8F8F8; */
+}
+.calendar tr .pq{
+	padding:0;
+}
+.calendar tr .pqSelected{
+	background-color:#690;
+}
+.calendar tr .curDay{
+	background-color:#FFF8F0;
+	color:#FF8700
+}
+.calendar tr .curDay .tagToday{
+	color:#FFF;
+	padding:1px 2px;
+	background-color:#FF8700;
+	float:right;
+	border-radius:2px;
+}
+.calendar tr td span{
+	cursor:pointer;
+}
+.calendar tr .pq a{
+	color:#690;
+	width:58px;
+	height:54px;
+	padding:4px;
+	display:block;
+	position:relative;
+}
+.calendar tr td a:hover{
+	background-color:#F4FFE0;
+	text-decoration:none;
+}
+.calendar tr td a .sy{
+	position:absolute;
+	right:4px;
+	top:24px;
+}
+.calendar tr td a .price{
+	position:absolute;
+	right:4px;
+	bottom:2px;
+	width: 59px;
+	text-align: right;
+	font-size:12px;
+}
+.calendar tr td a .icon{
+	position:absolute;
+	right:4px;
+	top:4px;
+}
+.calendar tr .pqSelected a{
+	color:#FFF;
+}
+.calendar tr .pqSelected a:hover{
+	background-color:#690;
+}
+.calendar tr .nextMonthDay,.calendar tr .nextMonthDay a,.calendar tr .prevMonthDay,.calendar tr .prevMonthDay a{
+	color:#CCC;
+}
+.calendar tr .pqSelected a,.calendar tr .pqSelected a .price,.calendar tr .pqSelected a .sy{
+	color:#FFF;
+}
+/*日历 */
+
+/*排期详情、团号、价格*/
+.info{
+	padding:15px;
+	position:relative;
+}
+.info p{
+	height:30px;
+}
+.info select{
+	padding:3px;
+}
+.info .lfColumn,.info .rgColumn{
+	width:200px;
+	line-height:30px;
+}
+.info .row{
+	clear:both;
+	height:auto;
+	line-height: 30px;
+}
+.info .row .th{
+	float:left;
+	width:60px;
+}
+.info .row .num{
+	float:left;
+}
+.rgColumn .info .row .num{
+	width:370px;
+}
+.info .row .num a{
+	word-break:break-all;
+}
+.info .row .num a img,.info .row .num a .actionIcon{
+	vertical-align:baseline;
+	margin:0 5px;
+}
+.info .littleTips{
+	color:#690;
+}
+.info .line{
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #FFF;
+}
+.info .submit{
+	width:160px;
+	height:35px;
+	font-size:18px;
+}
+.info a.submit{
+	line-height:35px;
+}
+.info .submit:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+.info .fav span{
+	float:left;
+}
+.info .price{
+	font-weight:bold;
+}
+.info .adults{
+	font-size:18px;
+}
+.info .children{
+	font-size:14px;
+}
+.info .mr{
+	margin-right:30px;
+}
+.infoteam .lfColumn{
+	height:auto;
+}
+.infoteam .row img{
+	vertical-align:middle;
+	margin-right:5px;
+}
+/*排期详情、团号、价格*/
+
+/*线路团队详情*/
+.teamDetailContent{
+	clear:both;
+}
+.teamDetail{
+	margin:30px 0 15px 0;
+}
+.teamDetail .plist{
+	width:980px;
+}
+.teamDetail .plist .tab_arrow{
+	border-color:#690;
+	top:0;
+	left:0;
+}
+.teamDetail .plist .tab_arrow b{
+	border-color: #690 transparent transparent;
+}
+.teamDetail .p_blk .p_blk_title{
+	top:-31px;
+	width:79px;
+	border-width: 1px 1px 0px 1px;
+	border-style:solid;
+	border-color:#CCC #CCC transparent #CCC;
+	background-color:#FFF;
+	line-height:30px;
+	height:30px;
+	padding:0;
+}
+.teamDetail .hover .p_blk_title{
+	border-color:#690 #690 transparent #690;
+	z-index:9;
+}
+.teamDetail .hover .p_blk_title h3{
+	color:#690;
+}
+.teamDetail .tab_arrow{
+	top:0px;
+}
+.teamDetail .blk1 .p_blk_title{
+	left:0px;
+}
+.teamDetail .blk2 .p_blk_title{
+	left:80px;
+	width:300px
+}
+.teamDetail .blk3 .p_blk_title{
+	left:380px;
+}
+.teamDetail .blk4 .p_blk_title{
+	left:460px;
+}
+.teamDetail .blk5 .p_blk_title{
+	left:540px;
+}
+.teamDetail .blk6 .p_blk_title{
+	left:620px;
+}
+.teamDetail .blk7 .p_blk_title{
+	left:700px;
+}
+.teamDetail .downloadList{
+	display:block;
+	height:16px;
+	line-height:16px;
+	right:5px;
+	position:absolute;
+	top:-24px;
+	
+	padding-left:25px;
+}
+.teamDetail .downloadList i{
+	display: block;
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 5px;
+	background-position: -20px -448px;
+}
+.teamDetail .new_downloadList{
+	right:160px;
+	background-position:0 0;
+}
+.teamDetail .abicon{
+	z-index:9;
+	position:absolute;	
+	top:-24px;	
+	padding-left:25px;
+	height:16px;
+	line-height:16px;
+	display:block;
+}
+.teamDetail .send_by_mail{
+	right:5px;
+	background-position:0 -22px;
+}
+.teamDetail .p_blk .tab_content{
+	border:1px solid #CCC;
+	border-top:2px solid #690;
+	padding:20px 25px;
+	position:relative;
+}
+.teamDetail .p_blk .tab_content p{
+	line-height:1.8em;
+	margin-bottom:15px;
+}
+.teamDetail .p_blk .tab_content p img{
+	vertical-align:middle;
+	margin-right:5px;
+}
+.teamDetail .p_blk .tab_content .tips{
+	color:#FF8700;
+	width:350px;
+}
+.teamDetail .tab_content .date .lfColumn{
+	width:100px;
+}
+.teamDetail .tab_content .date .rgColumn{
+	width:770px;
+	margin:0;
+	color:#6D6D6D;
+}
+.teamDetail .tab_content .rule_title{
+	font: 800 16px/26px "Microsoft Yahei", "SimSun";
+	color: #666;
+}
+.teamDetail .tab_content .rule_content{
+	line-height:1.6em;
+}
+
+.date{
+	margin:20px 0;
+}
+.date .lfColumn span{
+	background-color:#690;
+	width:40px;
+	height:20px;
+	line-height:20px;
+	color:#FFF;
+	display:block;
+	font-weight:bold;
+	font-family:Arial;
+	padding:0 5px;
+}
+.date .lfColumn h2{
+	font:bold 20px "Microsoft Yahei";
+	color:#690;
+	padding:5px 0;
+	border-bottom:2px solid #690;
+}
+.date .rgColumn h2{
+	/* border-bottom:1px dashed #CCC;
+	height:59px;
+	text-indent:50px;
+	font-size:16px;
+	line-height:90px;
+	margin-bottom:5px; */
+}
+.date .rgColumn p{
+	/* padding-left:50px; */
+	line-height:1.8em;
+}
+.date .rgColumn .hotel{
+	margin-top:20px;
+}
+.date .rgColumn .hotel span{
+	color:#690;
+}
+/*线路团队详情*/
+
+/*线路详情页弹出框样式*/
+.alertBox .alertTips{
+	background-color:#fff8aa;
+	padding:15px;
+	text-indent:0;
+	margin-bottom:15px;
+}
+.alertBox .alertTips em{
+	color:red;
+	margin-right:5px;
+}
+.alertBox .alertTips .input01{
+	position:relative;
+	margin-right:30px;
+}
+.alertBox .alertTips .input01 .text{
+	width:30px;
+	margin-left:15px;
+}
+.alertBox .alertTips .input02 .text{
+	width:95px;
+}
+.alertBox .detail{
+	text-indent:0;
+}
+.alertBox .listContent .smallBtn{
+	margin: 0;
+}
+.alertBox .selectPrice{
+	padding:15px;
+}
+.alertBox .selectPrice span{
+	margin-right:20px;
+}
+.alertBox .selectPrice .total{
+	font-weight:bold;
+	font-size:18px;
+}
+.alertBox .info{
+	background-color:#FFF;
+}
+.alertBox .info .submitBtn{
+	height:auto;
+}
+.alertBox .info .submitBtn input{
+	margin-top:0;
+}
+.alertBox .btnBar{
+	height:0;
+	padding:0;
+}
+.alertBox .alertTips .plus{
+	position:absolute;
+	right:-18px;
+	top:7px;
+}
+.alertBox .alertTips .minus{
+	position:absolute;
+	left:33px;
+	top:7px;	
+}
+/*线路详情页弹出框样式*/
+
+/*线路详情页弹出框样式*/
+.orderDetail .flow-steps{
+	right:0;
+	top:-70px;
+	*top:-60px
+}
+.orderDetail .content{
+	margin:15px 0;
+}
+.orderDetail .lfColumn{
+	width:320px;
+	position:relative;
+	*zoom:1;
+	*height:0;
+}
+.orderDetail .rgColumn{
+	width:640px;
+}
+/*线路详情页弹出框样式*/
+
+/*填写表单页*/
+.orderDetail{
+	position:relative;
+	margin-top:60px;
+}
+.orderDetail .fixed{
+	left:auto;
+}
+/*填写表单页*/
+
+/*信息表单*/
+.forms{
+	margin-bottom:25px;
+	color:#666;
+}
+.forms .title16{
+	height:30px;
+	line-height:30px;
+	position:relative;
+}
+.forms p{
+	margin-bottom:15px;
+}
+.forms label{
+	width:85px;
+	_width:80px;
+}
+.forms .cont{
+	width:218px;
+}
+.forms select{
+	margin-top:-1px;
+}
+.forms iframe{
+	margin-bottom:15px;
+}
+.forms em{
+	color:#AC0000;
+	margin:0 3px;
+}
+.forms .cont{
+	width:185px;
+}
+.forms .article{
+	line-height:1.8em;
+	text-indent:2em;
+}
+.forms .title16 span{
+	font:12px/20px "SimSun";
+	color:red;
+	position:absolute;
+	right:15px;
+	top:7px;
+}
+.forms .infoCont{
+	padding:15px;
+	border:1px solid #CCC;
+	border-top:4px solid #690;
+}
+.forms .infoCont .content {
+	width:auto;
+	margin:0;
+	padding:5px;
+	margin-bottom:15px;
+}
+.forms .infoCont .content .row{
+	margin-top:10px;
+}
+.forms .infoCont .content .row:first-child{
+	margin-top:0;
+}
+.forms .borderBox{
+	padding:15px;
+	border:1px solid #CCC;
+	margin-top:15px;
+}
+.forms .borderBox .input01{
+	margin-left:20px;
+}
+.forms .borderBox .tips{
+	margin:0;
+	width:475px;
+}
+.forms .borderBox .group{
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-bottom:1px dashed #CCC;
+}
+.forms .borderBox h3{
+	margin-bottom:10px;
+	font-size:15px;
+	color:#690;
+}
+.forms .borderBox .date{
+	margin:0 10px;
+}
+.forms .borderBox .dates{
+	margin-bottom:15px;
+}
+.forms .borderBox .ls{
+	margin-bottom:10px;
+}
+.forms .borderBox .ls .input01{
+	min-height:32px;
+	line-height:32px;
+}
+.forms .borderBox .last{
+	margin:0;
+}
+.forms .borderBox .lfColumn{
+	width:370px;
+}
+.forms .borderBox .rgColumn{
+	width:558px;
+}
+.forms .borderBox .index{
+	font:800 27px Arial;
+	color: #b9d480;
+	margin-right:20px;
+}
+.forms .borderBox .destination{
+	font:25px 'microsoft yahei';
+}
+.forms .borderBox .destination i{
+	width:53px;
+	height:19px;
+	background-position:0px -581px;
+	display:inline-block;
+	*height:28px;
+	*background-position:0px -585px;
+	_background-position:0px -587px;
+	*overflow:hidden;
+}
+.forms .borderBox .info{
+	text-align:center;
+	background-color:#FFF;
+}
+
+.forms .last{
+	margin-bottom:0;
+}
+.forms .idNumber{
+	width:290px;
+}
+.forms .bdb_dashed{
+	padding:0;
+}
+.forms .dashedCont{
+	padding:15px;
+	border-bottom:1px dashed #CCC;
+}
+.forms .noneCont{
+	padding:15px;
+	border:none;
+}
+.forms b.input02{
+	color:#F99728;
+}
+.forms .title{
+	margin-bottom:0;
+	font-size:16px;
+}
+.forms .title h2{
+	float:left;
+	display:inline;
+}
+.forms .title p{
+	float:left;
+	display:inline;
+	color:#999;
+	font-size:12px;
+	margin-bottom:0;
+	line-height:20px;
+}
+.forms .title .input01{
+	color:#999999;
+}
+.forms .submitBtn .submit{
+	width: 160px;
+	height: 35px;
+	font-size: 18px;
+}
+.forms .input03{
+	min-width: 100px;
+	margin-right: 60px;
+}
+/*信息表单*/
+
+/*填写旅客信息*/
+.accountInfo .clickMore a{
+	float:none;
+	background:#AAAAAA;
+	padding:0 10px;
+}
+.accountInfo .clickMore a:hover{
+	background-color:#F99728;
+}
+.accountInfo .traveler:first-child{
+	margin-top:0;
+}
+.accountInfo .traveler{
+	/* background-color:#f8f8f8; */
+	margin-top:15px;
+}
+.accountInfo .traveler_hover{
+	background-color:#f8f8f8;
+}
+.accountInfo .traveler h4{
+	border-bottom:1px dashed #CCC;
+	padding:5px 10px;
+	position:relative;
+}
+.accountInfo .traveler .row{
+	padding:5px 10px;
+}
+.accountInfo .traveler .delete{
+	font-size: 12px;
+	line-height: 26px;
+	margin-right: 10px;
+	font-weight:normal;
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.accountInfo .traveler_hover .delete{
+	display:block;
+}
+.priceInfo .total{
+	margin-top:15px;
+	padding-left:15px;
+}
+.priceInfo .total font{
+	font-weight:bold;
+	font-size:14px;
+}
+.priceInfo .total .price{
+	font-size:16px;
+}
+/*填写旅客信息*/
+
+/*联系人信息*/
+.contactInfo .layout{
+	width:540px;
+}
+.contactInfo .input02 .text{
+	width:160px;
+}
+.contactInfo .input02 .number{
+	width:45px;
+}
+/*联系人信息*/
+
+/*给我们留言*/
+.comment .textarea{
+	width:600px;
+	height:140px;
+	resize: none;
+	display:block;
+}
+/*给我们留言*/
+
+/*发票信息*/
+.invoice .input02{
+	width:auto;
+	margin-right:10px;
+	*margin-right:0px;
+}
+.invoice .detail .input02 .text{
+	width:200px;
+	margin-right:20px;
+}
+.invoice .detail .input02 .zcode{
+	width:117px;
+}
+.invoice .normal-tips h2{
+	color:#666;
+}
+.invoice .normal-tips li{
+	margin-left:20px;
+}
+/*发票信息*/
+
+/*发票信息*/
+.invoiceCheck .input02{
+	width:288px;
+}
+/*发票信息*/
+
+/*联系人信息核对*/
+.contactInfoCheck .input02{
+	width:288px;
+}
+/*联系人信息核对*/
+
+/*产品信息*/
+.pdInfo{
+	width:320px;
+	text-align:left;
+}
+.pdInfo .content{
+	margin:0;
+}
+.orderDetail .static{
+	height:1px;
+	*height:0px;
+}
+.orderDetail .fixed{
+	top:35px;
+}
+.pdInfo img{
+	vertical-align:middle;
+}
+.pdInfo .input01{
+	word-break:break-all;
+	white-space:normal;
+}
+/*产品信息*/
+
+/*填写订单页*/
+.order .contract .input02{
+	width:170px;
+}
+/*填写订单页*/
+
+/*旅客须知*/
+.contract .contractFrame{
+	width:608px;
+	height:400px;
+	margin-bottom:15px;
+}
+/*旅客须知*/
+
+/*完成预订页*/
+.final .lfColumn{
+	width:570px;
+}
+.final .rgColumn{
+	width:400px;
+	margin-left:10px;
+}
+.final .info{
+	clear:both;
+}
+.final .submitBtn{
+	*position:relative;
+}
+.final .submitBtn .quz{
+	*position:absolute;
+	*top:15px;
+}
+/*完成预订页*/
+
+/*订单信息*/
+.orderInfo{
+	font-size:14px;
+}
+.orderInfo .infoCont{
+	padding:15px 35px;
+	height:230px;
+}
+/*订单信息*/
+
+/*完成预订页温馨提示*/
+.orderFinalTips{
+	margin-top:35px;
+	border:1px solid #CCC;
+	padding:15px 35px;
+}
+.orderFinalTips p{
+	line-height:1.8em;
+	text-indent:2em;
+	color:#666;
+}
+.orderFinal .quz{
+	margin-top:-5px;
+	margin-left:10px;
+}
+/*完成预订页温馨提示*/
+
+/*支付表单*/
+.paymentChoice .tips{
+	display:none;
+}
+.paymentInfo{
+	border: 1px solid #D9D9D9;
+	padding: 0px 0px 0px;
+	padding-right: 18px;
+	padding-left: 66px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.paymentInfo .ist-item-num{
+	display: block;
+	width: 60px;
+	position: absolute;
+	left: 5px;
+	top: 0;
+	height: 100%;
+	border-right: 1px dashed #690;
+	text-align: center;
+	color: #690;
+	font-size: 46px;
+	font-weight: 700;
+	_width: 61px;
+	_border-right: none;
+	_left: -60px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.paymentInfo .title16{
+	margin-bottom:15px;
+}
+.paymentInfo .tips{
+	width: 676px;
+}
+.paymentInfo .paymentForm{
+	line-height: 21px;
+	padding: 15px;
+	*zoom: 1;
+	_border-left: 1px dashed #690;
+}
+.paymentInfo .forms{
+	margin-bottom:0;
+}
+.paymentInfo .forms .layout,.paymentInfo .tips{
+	position: relative;
+	_zoom: 1;
+	margin-left: 80px
+}
+.paymentInfo .forms label{
+	width:100px;
+}
+.paymentInfo .forms .input02 .input{
+	width:60px;
+	margin:0 5px;
+}
+.paymentForm .input01 span{
+	float:left;
+	width:410px;
+}
+.paymentForm .input01 .price span{
+	float:none;
+	width:auto;
+}
+
+.paymentInfo .forms em{
+	margin:0 5px;	
+}
+.paymentInfo .mod_tips{
+	width:130px;
+	border: 1px solid #EACAA5;
+	background-color: #FFFAE3;
+	color: #333;
+	padding:0 5px;
+}
+.paymentInfo .visible{
+	display:block;
+	visibility:visible;
+}
+.paymentInfo h3{
+	margin-bottom:15px;
+}
+.paymentInfo .radio_wrap ,.paymentInfo .radio_pic{ 
+	line-height:46px; 
+	_display:inline-block; 
+	float: left;
+	*zoom: 1;
+	overflow: hidden;
+}
+.paymentInfo .radio_wrap .radio{ 
+	vertical-align:middle;
+	margin:0 10px 0px 0px;
+	_margin:-3px 2px 0px -3px;
+	border:none; 
+}
+.paymentInfo .radio_pic { 
+	margin-right:30px; 
+}
+.paymentInfo .paymentRadio{
+	margin-bottom:15px;
+}
+.paymentInfo .tips a:hover {
+	color:#ff6600;
+}
+.paymentInfo .submitBtn{
+	text-align:left;
+}
+.paymentInfo .totalCont{
+	padding:15px 8px;
+	text-align:right;
+}
+.paymentInfo .totalCont p{
+	margin-bottom:0;
+}
+.paymentInfo .totalCont .total_price{
+	font-family:'microsoft yahei';
+	font-size:14px;
+}
+.paymentInfo .totalCont .price{
+	font-size:16px;
+}
+.paymentInfo .check_balance{
+	margin-left:10px;
+}
+.paymentForm .totalCont .priceNumber{
+	font-size:22px;
+	margin-left:5px;
+}
+.paymentForm .totalCont .yuan{
+	margin-left:5px;
+}
+.paymentForm .totalCont .number{
+	width:60px;
+}
+/*支付表单*/
+
+/*支付完成弹出框*/
+.paymentAlert p{
+	text-indent:2em;
+}
+.paymentAlert .info p{
+	text-indent:0;
+}
+.paymentAlert .submit{
+	margin-right:10px;
+}
+/*支付完成弹出框*/
+
+/*帮助弹出框*/
+.helpTipsAlert .cent{
+	width:60px;
+}
+/*帮助弹出框*/
+
+/*自由行详情页样式*/
+.freetripCont {
+	height:334px;
+	position:relative;
+	overflow:hidden;
+	_zoom:1;
+}
+.freetripCont .detail{
+	line-height:1.6em;
+	text-indent:2em;
+	margin:15px 0;
+}
+.freetripCont .price{
+	font-size:26px;
+}
+.freetripCont .bot{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:468px;
+	height:80px;
+}
+.freetrip .mainDetail .summary{
+	width:auto;
+}
+.freetrip .hotel{
+	height:auto;
+	margin:15px 0;
+}
+.freetrip .hotel .blockTitle20 span{
+	width:140px;
+}
+.freetrip .hotel .grid_view .summary{
+	font-size:12px;
+}
+.freetrip .hotel .grid_view .summary a{
+	font-size:12px;
+	line-height:1.2em;
+}
+.freetrip .hotel .grid_view .link{
+	width:70px;
+}
+.freetrip .grid_view .promPic{
+	height:174px;
+}
+/*自由行详情页样式*/
+
+/*酒店详情页样式*/
+.hotelDetail .lfColumn{
+	width:660px;
+ 	/* overflow:hidden; */
+}
+.hotelDetail .rgColumn{
+	width:300px;
+	padding-top:25px;
+}
+.hotelDetail .listContent{
+	margin:15px 0;
+}
+.hotelDetail .listContent .rpCheack,.hotelDetail .listContent .bfCheack{
+	position:relative;
+	height:15px;
+	display:inline-block;
+}
+.hotelDetail .listContent .smallBtn{
+	*float:left;
+	margin-right:5px;
+	display:inline-block;
+	*margin-right:5px;
+	*width:50px;
+}
+.hotelDetail .listContent .roomsTable{
+	width:440px;
+	height:403px;
+	display:block;
+}
+.hotelDetail .listContent dl dt{
+	width:62px;
+}
+.hotelDetail .listContent dl dd{
+	width:52px;
+	height:52px;
+}
+.hotelDetail .listContent .room_tr{
+	display:none;
+	height:545px;
+}
+.hotelDetail .listContent .hover_curr{
+	display:table-row;
+}
+.hotelDetail .listContent .info{
+	padding:8px 0 0 0;
+}
+.hotelDetail .listContent .info .littleTips{
+	line-height:30px;
+	padding-top:10px;
+	margin-bottom:0;
+	text-align:right;
+	margin-right:55px;
+	clear:both;
+}
+.hotelDetail .calendar .timeTable dl{
+	text-align:left;
+}
+.hotelDetail .fav{
+	position:static;
+	*float:left;
+	display:inline-block;
+	width:45px;
+	line-height:25px;
+	height:25px;
+}
+.hotelDetail .fav i{
+	margin-top:5px;
+	*margin:0;
+	*margin-top:5px;
+}
+.hotelDetail .detail{
+	padding:15px 10px;
+}
+.hotelDetail .detail li{
+	margin-bottom:10px;
+	line-height:1.6em;
+}
+.hotelDetail .detail li.last{
+	margin-bottom:0;
+}
+.hotelDetail .pdInfo{
+	margin:15px 0;
+	width:auto;
+}
+.hotelDetail .pdInfo .title16{
+	font-size:14px;
+	font-family:"SimSun";
+}
+.hotelDetail .pdInfo ul li{
+	margin-top:15px;
+	line-height:1.4em;
+}
+.hotelDetail .mapContent{
+	width:300px;
+	height:210px;
+}
+.hotelDetail .timeTable{
+	background-color:#FFF;
+}
+.hotelDetail .pd_Photo{
+	width: 283px;
+	height: 210px;
+}
+.hotelDetail .pd_Photo ul{
+	width: 283px;
+	height: 210px;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	line-height: 208px;
+}
+.hotelDetail .pd_Photo img{
+	max-width: 283px;
+	max-height: 210px;
+	_width: expression((this.width / this.height>= 1.3476) ? '283px':'auto');
+	_height: expression((this.width / this.height < 1.3476) ? '210px':'auto');
+	vertical-align: middle;
+}
+.hotelDetail .titleColumn .rgColumn{
+	padding:0;
+	line-height:1.6em;
+	width:355px;
+}
+.hotelDetail .filter{
+	margin:15px 0;
+	clear:both;
+}
+.hotelDetail .filter li{
+	padding:0 15px;
+}
+.hotelDetail .helpCont li a{
+	width:146px;
+}
+.roomPrice,.breakfast{
+	width:445px;
+	padding:3px;
+	border:1px solid #CCC;
+}
+.roomPrice .title span,.breakfast .title span{
+	width:100px;
+}
+.roomPrice .listContent,.breakfast .listContent{
+	margin:0;
+}
+.roomPrice .listContent th,.breakfast .listContent th{
+	padding:3px 0;
+}
+.roomPrice .listContent td p,.breakfast .listContent td p{
+	min-height:auto;
+	line-height:1.2em;
+	margin-bottom:0;
+	color:#FF4B4B;
+}
+.hotel_pic{
+	width:660px;
+	overflow:hidden;
+}
+.hotel_pic .inner{
+	width:680px;
+}
+.hotel_pic .col{
+	width:213px;
+	height:146px;
+	float:left;
+	margin:0 10px 10px 0;
+	cursor:pointer;
+	overflow: hidden;
+	text-align: center;
+	line-height: 144px;
+}
+.hotel_pic .col img{
+	max-width: 213px;
+	max-height: 146px;
+	_width: expression((this.width / this.height>= 1.4589) ? '213px':'auto');
+	_height: expression((this.width / this.height < 1.4589) ? '146px':'auto');
+	vertical-align: middle;
+}
+.hotel_pic .pic_bottom{
+	clear:both;
+	text-align:right;
+	width:660px;
+}
+/*酒店详情页样式*/
+
+/*门票详情页样式*/
+.ticket .ticketCont{
+	background-color:#FFF;
+	padding:5px;
+	height:356px;
+	overflow:hidden;
+}
+.ticketCont .attr{
+	border-top-width:2px;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+}
+.ticketCont .attr li{
+	padding:8px;
+	border-bottom:1px solid #DEDEDE;
+}
+.ticketCont .attr li b{
+	margin-right:10px;
+}
+.ticket .listContent{
+	border:1px solid #690;
+	margin-bottom:15px;
+}
+.ticket .listContent th{
+	padding:5px 15px;
+	background-color:#F4FFE0;
+	color:#859F56;
+	border-bottom:1px solid #859F56;
+	border-right:1px solid #859F56;
+}
+.ticket .listContent th.last{
+	border-right:none;
+}
+.ticket .listContent .fav{
+	position: static;
+	display: inline-block;
+	width: 45px;
+	line-height: 25px;
+	height: 25px;
+}
+.ticket .listContent .fav i {
+	margin-top: 5px;
+}
+.ticket .listContent .tips{
+	background-color:#FFFFBF;
+	border:0;
+	text-align:right;
+	padding:3px 10px;
+	color:#888;
+}
+.ticket .detail .lfColumn{
+	width:620px;
+}
+.ticket .detail .rgColumn{
+	width:340px;
+}
+.ticket .detail .tab_content{
+	display:block;
+	line-height:1.6em;
+}
+.ticket .detail .mapContent{
+	width:340px;
+	height:319px;
+	margin-top:10px;
+}
+/*门票详情页样式*/
+
+/*合并支付样式*/
+.combinPay .selectOrder .tips{
+	width:auto;
+}
+/*合并支付样式*/
+
+/*酒店图片幻灯*/
+.HotelDetail_slide{
+	position:fixed;
+	_POSITION:absolute;
+	z-index:10000000;
+	_top: -999em;
+	width:700px;
+	height:500px;
+}
+.HotelDetail_slide .close{
+	width: 13px;
+	height: 13px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	background-position: -75px -494px;
+	background-color:#FFF;
+	padding:3px;
+	z-index:999999;
+}
+.HotelDetail_slide #photos {
+	visibility: hidden;
+}
+.HotelDetail_slide div.panel {
+	width:700px;
+	height:500px;
+	padding:5px;
+}
+.HotelDetail_slide div.panel img {
+	width:700px;
+	height:490px;
+	font-size:0;
+}
+.HotelDetail_slide ul.filmstrip img {
+	width:140px;
+	height:100px;
+}		
+/*酒店图片幻灯*/
+
+/*我要支付*/
+.orderPayment .layout{
+	border-bottom:1px dashed #CCC;
+	*padding:8px 0;
+	*margin:0;
+}
+.orderPayment .layout .title{
+	width:75px;
+	margin-right:15px;
+	float:left;	
+}
+.orderPayment .layout .zfimg{
+	float:left;
+	margin-bottom:8px;
+}
+.orderPayment .paymentInfo .layout{
+	border:none;
+}
+.orderPayment .paymentInfo .tips{
+	width:auto;
+}
+.orderPayment .pdInfo{
+	width: 230px;
+}
+/*我要支付*/
+/**/
+.list .mainDetail{
+	margin-top: 0px;
+}
+/*我要支付*/
+
+/*debug*/
+.listContent .breakfast{
+	width:auto;
+	padding:0;
+	border:none;
+}
+/*什么是旅游电子合同*/
+.quzt{
+	position:absolute;
+	top:20px;
+	right:228px;
+}
+/*包团定制*/
+.grouptrip .lfColumn{
+	width:230px;
+}
+.grouptrip .rgColumn{
+	width:730px;
+}
+.grouptrip .custom_order_Info .input02,.grouptrip .contact_Info .input02{
+	width:90px;
+	text-align:right;
+}
+.grouptrip .custom_order_Info .travelType{
+	height:50px;
+}
+.grouptrip .custom_order_Info .disabled{
+	background-image:none;
+}
+.grouptrip .checkboxes .input03{
+	width:220px;
+}
+.grouptripDetail .summary{
+	width:730px;
+}
+.grouptrip .intention{
+	margin-left:105px;
+	border:1px dashed #ccc;
+	width:500px;
+	padding:5px 15px 15px 15px;
+	margin-bottom:15px;
+	display:none;
+}
+.grouptrip .intention h3{
+	margin:3px 0;
+}
+/*包团定制*/
+
+/*邮轮产品详情页*/
+.cruise .ticketCont{
+	margin-top:25px;
+}
+.cruise .info .adults{
+	font-size:25px;
+}
+.cruise .ticketCont .attr p{
+	line-height:1.6em;
+}
+.cruise .ticketCont .attr .last{
+	height:143px;
+}
+.cruise .detail_info{
+	text-align:left;
+	padding:15px 30px;
+	background-color:#F4FFE0;
+	position:relative;
+	height:276px;
+}
+.cruise .detail_info .lfC{
+	
+}
+.cruise .detail_info .pdInfo{
+	width:auto;
+}
+.cruise .detail_info .lfColumn{
+	width:547px;
+}
+.cruise .detail_info .rgColumn{
+	width:320px;
+}
+.cruise .detail_info .lfColumn img{
+	margin:0;
+}
+.cruise .detail_info .pdInfo .content{
+	height:234px;
+	margin-bottom:0;
+}
+.cruise .roomInfo{
+	margin-bottom:60px;
+}
+.cruise .filter li{
+	border:none;
+}
+.cruise .roomList .calendarTd{
+	padding:0;
+}
+.cruise .contactInfo .infoCont .layout{
+	width:auto;
+}
+.cruise .comment .textarea{
+	width:940px;
+}
+.cruise .roomList .title{
+	font-size:16px;
+	margin-bottom:10px;
+}
+.cruise .caution iframe{
+	margin:0;
+}
+.pkg-detail-date {/*select date*/ margin:0px auto; position:relative; width:868px;padding-top:25px;}
+.pkg-detail-date p span { float:right; margin-right:38px; }
+.pkg-detail-date-box{ margin:0 38px; width:789px; height:60px; overflow:hidden; position:relative;border-right:1px solid #CCC; }
+.pkg-detail-date-box li{ width:792px;float:left;display:block;}
+.pkg-detail-date-box .container{position:absolute;width:2000px;}
+.pkg-detail-date-box a, .pkg-detail-date-box .pkg-no-date{ float:left; width:262px; height:45px; padding-top:13px;text-align:center; color:#666;border: 1px solid #CCC;border-right:0; }
+.pkg-detail-date-box .pkg-no-date, .pkg-detail-date-box2 .pkg-no-date { color:#b5b5b5; }
+.pkg-detail-date-box a:hover{background-color:#F4FFE0;text-decoration:none;}
+.pkg-detail-date-box a.current { border-color:#690;background-color:#690;color:#FFF }
+.pkg-detail-date-box .current .base_price{color:#FFF;}
+.pkg-detail-date-box .base_price{ display:block;color:#FF4343}/*price*/
+.pkg-detail-date-box .base_price strong, .pkg-detail-date-box2 .base_price strong { font-size:16px; font-family:Arial; vertical-align:-1px; _vertical-align:2px; }
+.pkg-circle-prev, .pkg-circle-next {/*next and prev*/ display:block; position:absolute; width:19px; padding-top:36px; height:0; overflow:hidden; top:60px; margin-top:-20px; text-decoration:none; }
+#pkg-circle-prev.disabled,#pkg-circle-prev.disabled:hover{
+	background-position:0 -745px;cursor:default;
+}
+#pkg-circle-next.disabled,#pkg-circle-next.disabled:hover{
+	background-position:-20px -745px;cursor:default;
+}
+.pkg-circle-prev { left:0; background-position: 0 -673px ; }
+.pkg-circle-prev:hover { background-position:0px -709px; }
+.pkg-circle-next { right:0; background-position:-20px -673px; }
+.pkg-circle-next:hover { background-position:-20px -709px; }
+.pkg-circle-prev-disable, .pkg-circle-prev-disable:hover { background-position:-112px -72px; cursor:default; }
+.pkg-circle-next-disable, .pkg-circle-next-disable:hover { background-position:-131px -72px; cursor:default; }
+.pkg-circle-top, .pkg-circle-bottom {/*top and bottom*/ display:block; position:absolute; width:36px; padding-top:19px; height:0; overflow:hidden; left:50%; margin-left:-18px; text-decoration:none; }
+.pkg-circle-top { top:10px; background-position:-95px -225px; }
+.pkg-circle-bottom { bottom:10px; background-position:-95px -244px; }
+.pkg-circle-top:hover { background-position:-135px -225px; }
+.pkg-circle-bottom:hover { background-position:-135px -244px; }
+.pkg-circle-top-disable, .pkg-circle-top-disable:hover {/*disable*/ background-position:-174px -225px; cursor:default; }
+.pkg-circle-bottom-disable, .pkg-circle-bottom-disable:hover { background-position:-174px -244px; cursor:default; }
+.infoCont .inline {margin: 15px auto;width:792px;}
+.infoCont .inline span{margin-right:15px;}
+.infoCont .inline .pd_num{margin:0 15px;}
+/*邮轮产品详情页*/
+
+/*新行程列表*/
+.travel_list{
+	margin-bottom:45px;
+}
+.teamDetail .p_blk .tab_content .travel_list p{
+	margin-bottom:15px;
+	line-height:1.6em;
+    text-align:justify;
+	/* text-justify:distribute-all-lines; *//*ie6-8*/
+	*text-justify:auto;/*ie6-8*/
+	text-align-last:left;
+	*text-align-last:justify;
+}
+.travel_list a{
+	padding-right:15px;
+	background-position:100% -40px;
+	margin-right:.5em;
+}
+.travel_list .row{
+	margin-bottom:25px;
+}
+.travel_list .title24{
+	font:24px/26px "Microsoft Yahei";
+	border-bottom:2px solid #C6C6C6;
+	height:24px;
+}
+.travel_list .title20{
+	font:20px/22px "Microsoft Yahei";
+}
+.travel_list .title12{
+	font:100 12px/14px "SimSun";
+	color:#690;
+	margin-bottom:5px;
+}
+.travel_list .title24 h4{
+	font-weight:normal;
+	line-height:28px;
+	border-bottom:2px solid #690;
+	display:inline;
+}
+.travel_list .title24 small{
+	font:100 12px/14px "SimSun";
+	color:#999;
+	display:inline;
+	margin-left:15px;
+}
+.travel_list .content{
+	width:auto;
+	margin-top:15px;
+}
+.travel_list .title14{
+	color:#690;
+	font:bold 14px/16px "SimSun";
+	margin-bottom:15px;
+}
+.travel_list .special_column{
+	width:300px;
+	margin:10px 0 10px 14px;
+	float:left;
+	display:inline-block;
+}
+.travel_list .img img{
+	border-radius:0 15px 0 15px;
+}
+.travel_list .textField{
+	margin-top:10px;
+	padding:0 12px;
+	clear:both;
+}
+.travel_list .special_column:first-child{
+	margin-left:0;
+}
+.travel_list .textField .title16{
+	font-size:16px;
+	color:#000;
+}
+.travel_list .textField .title16:hover{
+	color:#690;
+}
+.travel_list .spot .textField{
+	margin-top:10px;
+}
+.travel_list .spot .textField a{
+	font:14px/16px "Microsoft Yahei";
+}
+.travel_list .intro,.travel_list .intro_reverse{
+	margin-bottom:35px;
+}
+.travel_list .intro .lfColumn{
+	width:400px;
+}
+.travel_list .intro .rgColumn{
+	width:500px;
+}
+.travel_list .intro .title20{
+	margin:20px 0;
+}
+.travel_list .intro_reverse .lfColumn{
+	width:439px;
+}
+.travel_list .intro_reverse .rgColumn{
+	width:469px;
+}
+.travel_list .intro_reverse .title20{
+	margin:20px 0;
+}
+.travel_list .special_column .textField .sub{
+	color:#999;
+}
+.travel_list .special_column .textField .wifi{
+	margin-bottom:0;
+	padding-left:20px;
+	background-position:0 -65px;
+	color:#999;
+}
+.travel_list .list{
+	margin-left:30px;
+	list-style-type:decimal;
+}
+.travel_list .list li{
+	margin-top:15px;
+}
+.travel_list .list li:first-child{
+	margin-top:0;
+}
+.travel_list .date_title{
+	overflow:hidden;
+	position:relative;
+	padding-left:50px;
+	border-bottom:1px dashed #CCC;
+	height:41px;
+	padding-top:18px;
+	margin-bottom:5px;	
+}
+.travel_list .date_title h2{
+	font-size:16px;
+}
+/* .travel_list .date_title .place{
+	padding-left:40px;
+	float:left;
+	display:inline;
+	height:35px;
+	margin-bottom:15px;
+}
+.travel_list .date_title .place em{
+	font:100 12px/14px "SimSun";
+}
+.travel_list .date_title .place .time{
+	color:#999;
+} */
+/* .travel_list .date_title .arrow_right{
+	width:30px;
+	height:35px;
+	text-align:center;
+	float:left;
+	display:inline;	
+	line-height:35px;
+	font-size:18px;
+	font-weight:bold;
+} */
+.travel_list .traffic{
+	padding-left:20px;
+	margin-right:10px;
+}
+.travel_list .airplane{
+	background-position:0 -88px;
+}
+.travel_list .bus{
+	background-position:0 -108px;
+}
+.travel_list .ship{
+	background-position:0 -129px;
+}
+.travel_list .train{
+	background-position:0 -150px;
+}
+.travel_list .date_title .bus{
+	background-position:0 -134px;
+}
+.travel_list .rgColumn .date_title p{
+	margin:0;
+	padding:0;
+	line-height:normal;
+}
+/* .hotel .special_column .textField{
+	height:77px;
+} */
+.intro .title20,.intro_reverse .title20{
+	color:#690;
+	margin:25px 0 10px 0;
+}
+.special_list .row{
+	margin-bottom:25px;
+}
+.wrapPic{
+	margin:0 25px 10px 0;
+}
+.food .special_column .textField a{
+	margin:0;
+}
+.food .special_column .textField .title14{
+	margin:15px 0 5px 0;
+}
+.date_list .date .rgColumn .lfColumn{
+	width:425px;
+	margin-left:50px;
+}
+.date_list .date .rgColumn .rgColumn{
+	width:265px;
+	height:147px;
+	margin-left:30px;
+}
+.date_list .date .view{
+	margin-bottom:15px;
+	/* margin-left:50px; */
+}
+.date_list .date .view p{
+	margin-bottom:0;
+}
+.date_list .date p b{
+	margin:0 5px 0 20px;
+}
+/*新行程列表*/

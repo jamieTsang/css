@@ -1,0 +1,863 @@
+﻿/* 会员中心-帮助中心-页脚信息-下载中心 样式表 最后修改日期20140208 */
+
+/* sprite */
+.download .pdInfo .list dt .clip{
+	background:url(/static/images/sprite_global.png) no-repeat;
+}
+/* reset */
+.login_body{
+	background-color:#F0F0F0;
+}
+.lfColumn{
+	width:168px;
+}
+.rgColumn{
+	width:792px;
+	_width:780px;
+	min-height:320px;
+	overflow:visible;
+}
+.header{
+	margin-bottom:10px;
+}
+.submit{
+	height:35px;
+	line-height:35px;
+	font-size:18px;
+	padding:0 10px;
+	min-width:90px;
+}
+.title18{
+	position:relative;
+}
+.title18 a{
+	font-size:12px;
+	float:right;
+	line-height:22px;
+	margin-right:5px;
+	font-family:"SimSun";
+	display:none;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.title18 i{
+	font-size:12px;
+	margin-left:10px;
+	font-family:"SimSun";
+	color:#CCCCCC;
+}
+ul.tips{
+	margin-left:0;
+}
+.attr .tips li{
+
+}
+.attr .submitBtn{
+	margin:15px 0;
+}
+.detail{
+	margin:15px 0;
+}
+.attr .input02{
+	width:350px;
+}
+/* reset */
+
+/* 密码强度 */
+.pw_letter{
+	clear:both;
+	padding:5px 0;	
+	margin-left:110px;
+}
+.pw_bar{
+	height:6px;
+	width:190px;
+	margin-right:2px;
+	background-color:#E2E2E2;
+	float:left;
+	display:inline-block;
+	overflow:hidden;
+	position:relative;
+}
+.pw_bar i{
+	display:block;
+	height:100%;
+	overflow:hidden;
+	background-color:#690;
+	width:0;
+}
+.pw_bar .top{
+	position:absolute;
+	z-index:9;
+	top:0;
+	left:0;
+	height:6px;
+	width:190px;
+}
+.pw_bar .length0{
+	transition: width .4s;
+	-webkit-transition: width .4s;
+	-moz-transition: width .4s;
+	-o-transition: width .4s;
+	width:0;
+}
+.pw_bar .length1{
+	transition: width .4s;
+	-webkit-transition: width .4s;
+	-moz-transition: width .4s;
+	-o-transition: width .4s;
+	width:62px;
+}
+.pw_bar .length2{
+	transition: width .4s;
+	-webkit-transition: width .4s;
+	-moz-transition: width .4s;
+	-o-transition: width .4s;
+	width:126px;
+}
+.pw_bar .length3{
+	transition: width .4s;
+	-webkit-transition: width .4s;
+	-moz-transition: width .4s;
+	-o-transition: width .4s;
+	width:190px;
+}
+.pw_bar .top span{
+	display:inline-block;
+	float:left;
+	height:100%;
+	width:62px;
+	border-right:2px solid #FFF;
+	margin:0;
+}
+.pw_text{
+	clear:both;
+}
+.pw_text dd{
+	margin-top:5px;
+	float:left;
+	width:62px;
+	margin-right:2px;
+	display:inline-block;
+	text-align:center;
+}
+/* 密码强度 */
+
+/* 登录界面头部样式 */
+.user_head{
+	height:100px;
+	background-color:#FFF;
+}
+.user_head .content{
+	height:100px;
+	margin:0 auto;
+}
+.user_head .content .logo{
+	width:125px;
+	height:50px;
+	padding:40px 0 10px 26px;
+}
+.user_head .content .sub_nav{
+	float:right;
+	width:150px;
+	margin-top:75px;
+	color:#CCCCCC;
+}
+.user_head .content .sub_nav a{
+	margin:0 10px;
+}
+/* 登录界面头部样式 */
+
+/* 框架 */
+.login_pannel_frame{
+	width:328px;
+	height:323px;
+	_height:333px;
+	position:absolute;
+	top:34px;
+	right:45px;
+}
+/* 框架 */
+
+/* 登录背景样式 */
+.loginBg{
+	height:390px;
+}
+.loginBg .content{
+	margin-top:0;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+.loginBg .login_img_text{
+	position:absolute;
+}
+/* 登录界面头部样式 */
+
+/* 忘记密码样式 */
+.forgotPassword .tips{
+	position:static;
+}
+/* 忘记密码样式 */
+
+/*  页脚样式 */
+.footer{
+	margin-top:0;
+}
+/*  页脚样式 */
+
+/*  会员中心侧栏样式 */
+.navList .hover a{
+	color:#FFF;
+	background-color:#669900;
+}
+.navList .hover a:hover{
+	-webkit-animation:none;
+	-moz-animation:none;
+}
+.navList ul {
+	width:168px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.navList .static {
+	width: 168px;
+}
+.navList li a {
+	width:67px;
+	padding:0 7px;
+	height:81px;
+	color:#690;
+	font-size:16px;
+ *zoom:1;
+ *position:relative;
+}
+.navList li a span {
+	width:65px;
+}
+.navList .account_avatar img{
+	display:block;
+}
+.navList .account_avatar p{
+	margin:10px 0;
+	text-align:center;
+}
+/*  会员中心侧栏样式 */
+
+/*  会员中心首页样式 */
+.user_title{
+	font-family:'microsoft yahei';
+	font-size:22px;
+	font-weight:normal;
+}
+.shopping-info{
+	margin:5px 0;
+	color:#CCCCCC;
+}
+.shopping-info a{
+	margin:0 10px;
+}
+/*  会员中心首页样式 */
+
+/*  会员中心板块样式 */
+.attr{
+	padding:10px 20px;
+	margin-bottom:30px;
+}
+.attr .title18{
+	font-weight:normal;
+}
+.attr .lfColumn,.attr .rgColumn{
+	width:365px;
+}
+.attr .rgColumn{
+	min-height:0;
+}
+.attr .listContent td{
+	vertical-align: top;
+}
+.attr dl li{
+	border-bottom:0;
+	min-height:23px;
+}
+.attr dl .btnCont{
+	height:35px;
+}
+.attr dl li label{
+	line-height:23px;
+}
+.attr .intv{
+	float:left;
+	line-height:23px;
+}
+.attr .qh{
+	width:30px;
+}
+.attr .lt{
+	width:100px;
+	margin:0;
+	margin-right:10px;
+	text-align:right;
+	float:left;
+	display:inline-block;
+	line-height:23px;
+}
+.attr dl li input{
+	/* float:left;
+	display:inline-block; */
+}
+.attr dl li .checkbox{
+	/* margin:0;
+	margin-top:2px; */
+}
+.attr .detail .submit{
+	float:left;
+}
+.searchBottom{
+	margin-bottom:30px;
+}
+.searchBottom .lineContent{
+	width:350px;
+	_width:343px;
+	_overflow:hidden;
+}
+.searchBottom .lineContent dt{
+	width:350px;
+}
+.searchBottom .lineContent a{
+	width:300px;
+}
+.searchBottom .promPic{
+	width:244px;
+}
+.searchBottom .topCont {
+	height: 166px;
+	overflow: hidden;
+}
+/*  会员中心板块样式 */
+
+/*  会员中心留言信息样式 */
+.user_comment .filter{
+	margin:5px 0 20px 0;
+}
+.user_comment .filter li{
+	padding:0 5px;
+}
+.user_comment .filter .text{
+	width:72px;
+}
+.user_comment .filter .datepicker{
+	width: 95px;
+}
+.user_comment .filter .name{
+	width:132px;
+}
+/*  会员中心留言信息样式 */
+
+/*  注册页面样式*/
+.register_bg{
+	/* background-color:#F7F7F7; */
+	width:100%;
+	padding:30px 0;
+}
+.register_bg .content{
+	margin:0 auto;
+	width:755px;
+	border-radius:5px;
+	background-color:#FFF;
+	padding:15px 30px;
+}
+.register {
+	width:auto;
+	border:0;
+}
+.register .blockTitle20 span{
+	width:100px;
+}
+.register dl li{
+	padding:10px 0;
+	min-height:32px;
+	*zoom:1;
+	position:relative;
+}
+.register .tips{
+	margin:0;
+	margin-left:110px;
+}
+.register .tips li{
+	padding:0;
+	margin:0;
+	min-height:0;
+}
+.register .text{
+	font-size: 12px;
+	padding: 7px;
+	width:185px;
+}
+.register .vcode{
+	width:100px;
+}
+.register .lfColumn{
+	width:500px;
+	margin-top:15px;
+}
+.register .rgColumn{
+	width:235px;
+	margin-top:15px;
+}
+.register .lt,.register dl li label{
+	line-height:32px;
+}
+.register .radio,.register .checkbox{
+	/* margin:10px;
+	*margin:5px; */
+}
+.register .input01{
+	min-height:32px;
+	line-height:32px;
+}
+.register .AuthCode{
+	margin:4px 10px;
+}
+.register .rgColumn .toLogin {
+	margin-top:30px;
+	padding:5px 30px;
+	border-left:1px solid #CCCCCC;
+}
+.register .rgColumn .toLogin p{
+	margin-bottom:30px;
+}
+.zfb i{
+	margin: 0 5px;
+}
+.zfb i img{
+	vertical-align:top;
+}
+/*  注册页面样式*/
+
+/*  修改密码样式*/
+.editPassWord .pw_bar span{
+	margin:0;
+	width:48px;
+}
+.editPassWord .pw_bar,.editPassWord .pw_bar .top{
+	width:148px;
+}
+.editPassWord .pw_text dd{
+	width:48px;
+}
+.editPassWord .pw_bar i.length0{
+	transition: width .4s;
+	-webkit-transition: width .4s;
+	-moz-transition: width .4s;
+	-o-transition: width .4s;
+	width:0;
+}
+.editPassWord .pw_bar i.length1{
+	transition: width .4s;
+	-webkit-transition: width .4s;
+	-moz-transition: width .4s;
+	-o-transition: width .4s;
+	width:48px;
+}
+.editPassWord .pw_bar i.length2{
+	transition: width .4s;
+	-webkit-transition: width .4s;
+	-moz-transition: width .4s;
+	-o-transition: width .4s;
+	width:98px;
+}
+.editPassWord .pw_bar i.length3{
+	transition: width .4s;
+	-webkit-transition: width .4s;
+	-moz-transition: width .4s;
+	-o-transition: width .4s;
+	width:148px;
+}
+/*  修改密码样式*/
+
+/*  会员积分样式*/
+.user_pointList .filter .name{
+	width:65px;
+}
+.user_pointList .filter .phone{
+	width:90px;
+}
+.user_pointList .filter li{
+	padding:0 5px;
+}
+.user_pointList .filter .datepicker {
+	width: 95px;
+}
+.user_pointList .filter span{
+	margin:0;
+}
+.user_pointList .tips{
+	margin-bottom:30px;
+}
+.user_pointList .smallBtn{
+	_zoom:1;
+}
+/*  会员积分样式*/
+
+/*  常用旅客信息样式*/
+.travelsInfo tr td{
+	border-bottom:0;
+	background-color:#F7F7F7;
+}
+.travelsInfo tr th{
+	background-color:#9ACB38;
+}
+.add_travel_info{
+	text-align:center;
+	margin-bottom:30px;
+}
+#addPassport{
+	*width:177px;
+}
+/*  常用旅客信息样式*/
+.user_travelsInfo .yearList{
+	width:60px;
+}
+.user_travelsInfo .dateList{
+	width:40px;
+}
+
+/*  旅行证件样式*/
+.passport{
+	width:450px;
+	padding:15px;
+	border:1px dashed #CCCCCC;
+	cursor:default;
+}
+/*  旅行证件样式*/
+
+/*  组团游线路详情样式*/
+.lineDetail .listContent{
+	width:505px;
+	float:left;
+	margin-left:40px;
+}
+.lineDetail .submit{
+	float:left;
+	margin:17px 45px;
+}
+/*  组团游线路详情样式*/
+
+/*  出团信息查询结果样式*/
+.lineInfo{
+	margin-bottom:30px;
+}
+.lineInfo .input02{
+	float:none;
+	width:auto;
+}
+.lineInfo .lt{
+	width:120px;
+}
+.lineInfo .lfColumn,.lineInfo .rgColumn{
+	width:445px;
+}
+.outTeam .attr li{
+	border:0;
+	list-style-type:none;
+}
+.outTeam .blockTitle20,.outTeam .attr li .cent{
+	width:380px;
+	margin:0 auto;
+}
+/*  出团信息查询结果样式*/
+
+/*  帮助中心样式*/
+.help_body .user_head{
+	height:74px;
+	overflow:hidden;
+}
+.help_body .user_head .content .logo{
+	padding-top:15px;
+}
+.help_body .user_head .content .logo_help img{
+	margin-top:10px;
+}
+.help_body .user_head .content .sub_nav{
+	margin-top:50px;
+	width:190px;
+}
+/* .help_bg {
+	padding: 10px 0;
+} */
+/* .help_bg .content{
+	margin:0 auto;
+	border-radius:5px;
+	background-color:#FFF;
+	padding:15px 30px;
+	width:920px;
+} */
+/* .help_bg .content .lfColumn{
+	width:550px;
+}
+.help_bg .content .rgColumn{
+	width:350px;
+} */
+/*  帮助中心样式*/
+
+/*  帮助中心首页样式*/
+.olservice{
+	width:348px;
+	height:209px;
+	overflow:hidden;
+	position:relative;
+	border:1px solid #CCC;
+	*zoom:1;
+	background-image:url(/subject/images/help/online_service_01.jpg);
+}
+.olservice .submit{
+	position:absolute;
+	top:95px;
+	left:29px;
+}
+.attr .items{
+	float:left;
+	display:inline-block;
+	width:250px;
+	margin-bottom:20px;
+}
+.attr .items img{
+	float:left;
+}
+.attr .lf_item{
+	margin-right:7px;
+}
+.attr .items .title18{
+	font-size:16px;
+	margin-left:90px;
+	padding-bottom:8px;
+}
+.attr .items ul{
+	margin-left:90px;
+}
+.attr .items ul li{
+	border:0;
+	padding:0;
+	margin-bottom:3px;
+	float:left;
+	display:inline;
+	margin-right:15px;
+	white-space:nowrap;
+}
+.attr .items ul li a{
+	margin:0;
+}
+.help .static,.download .static {
+	height: 1px;
+}
+.pdInfo{
+	width:168px;
+}
+.pdInfo .list dl{
+	position:relative;
+}
+.pdInfo .list a,.download .pdInfo .list .hover a{
+	display:block;
+	padding:8px 14px;
+	background-color:#F4F4F4;
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;
+	cursor:pointer;
+}
+.pdInfo .list .hover a{
+	background: #fff5e8;
+	border-color: #f4b39d;
+	border-bottom: 1px solid #f4b39d;
+	border-left: 1px solid #f4b39d;
+	border-right: 1px solid #f4b39d;
+}
+/*  帮助中心首页样式*/
+
+/*  帮助中心常见问题*/
+.questions{
+	margin:30px 0;
+}
+.questions .blockTitle20{
+	margin-bottom:5px;
+}
+.questions li{
+	border:0;
+}
+.questions li h2 a{
+	width:340px;
+}
+.quest_classify .items{
+	width:239px;
+	margin-right:15px;	
+}
+.quest_classify .last{
+	margin-right:0;
+}
+.quest_classify .itemWrap{
+	width:770px;
+	overflow:hidden;
+}
+.quest_classify .items .title18{
+	margin:0;
+	border-bottom:1px solid #CCC;
+	padding-bottom:0;
+	line-height:24px;
+	margin-bottom:8px;
+}
+.quest_classify .items ul{
+	margin-left:25px;
+}
+.quest_classify .items ul li{
+	float:none;
+	display:list-item;
+	margin-bottom:5px;
+	list-style:square;
+}
+/*  帮助中心常见问题*/
+
+/*  帮助中心正文*/
+.help .helpDetail_title{
+	min-height:45px;
+	border-bottom: 1px #CCC solid;
+	position: relative;
+	margin: 0 auto;
+}
+.help .helpDetail_title h1{
+	font: 26px "Microsoft Yahei", "SimHei";
+	margin: 5px 0;
+	clear:both;
+}
+.help .helpDetail_title .return{
+	float:right;
+	margin-bottom:2px;
+}
+.help .helpDetail_text{
+	padding:15px 0;
+	font-size: 14px;
+	line-height: 28px;	
+}
+.help .help_check{
+	float:right;
+	margin:15px 0;
+}
+.help .help_check .textTips{
+	float:left;
+	display:inline-block;
+	line-height:25px;
+}
+.help .help_check .frame{
+	height:25px;
+	width:158px;
+	*width:220px;
+	float:left;
+	display:inline-block;
+	position:relative;
+	*zoom:1;
+	overflow:hidden;
+}
+.help .help_check .frame .cont{
+	position:absolute;
+}
+.help .help_check .btns{
+	height:25px;
+	width:158px;
+	*width:220px;
+}
+.help .help_check .btns p{
+	line-height:25px;
+	text-align:center;
+	color:#666666;
+}
+.help .help_check .btns .smallBtn{
+	*width:100px;
+}
+/*  帮助中心正文*/
+
+/*  页脚信息正文*/
+.page .attr{
+	padding:10px 20px 30px 20px;
+}
+.page .classify{
+	margin-bottom:15px 0;
+}
+.page .classify li{
+	padding:10px;
+}
+.page .classify li .lt{
+	width:70px;
+	float:left;
+}
+.page .classify li .list{
+	float:left;
+	width:650px;
+	display:inline-block;
+}
+.page .classify li a{
+	line-height:23px;
+	white-space: nowrap;
+}
+.page .common,.page .text{
+	float:left;
+	border:0;
+}
+/*  页脚信息正文*/
+
+/*  下载中心首页样式*/
+.download .pdInfo .list dt{
+	position:relative;
+}
+.download .pdInfo .list dt ol{
+	display:none;
+	position:relative;
+	*zoom:1;
+}
+.download .pdInfo .list dt ol dl a,.download .pdInfo .list .hover ol dl a{
+	background-color:#FEFEFE;
+	padding: 8px 25px;
+}
+.download .pdInfo .list .hover a{
+	background-color: #F4F4F4;
+	border-bottom: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+.download .pdInfo .list dt ol dl a.hover{
+	background: #fff5e8;
+	border-color: #f4b39d;
+	border: 1px solid #f4b39d;
+}
+.download .pdInfo .list dt .clip{
+	width:16px;
+	height:15px;
+	position:absolute;
+	right:14px;
+	top:8px;
+	background-position:-81px -512px;
+}
+.download .pdInfo .list .hover .clip{
+	background-position:-61px -512px;
+}
+.download .attr ul li{
+	position:relative;
+}
+.download .attr ul li a{
+	position:absolute;
+	right:10px;
+}
+.download  .quest_classify .items ul li a{
+	position:static;
+}
+/*  下载中心首页样式*/
+
+
+
+
+
+
+
+
+

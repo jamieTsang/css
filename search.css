@@ -1,0 +1,567 @@
+﻿/* 搜索结果样式表 最后修改日期20140211 */
+
+/*sprite*/
+.none{
+	background:url(/static/images/sprite_global.png) no-repeat;
+	_background:url(/static/images/sprite_global_ie6.png) no-repeat;
+}
+/*sprite*/
+
+.filter .first a{
+	_margin-top:0;
+}
+
+/* 标题 */
+
+
+/* 标题 */
+
+/* 搜索产品页 */
+.travelList .datepicker{
+	width:95px;
+}
+.travelList .attr{
+	margin-bottom:20px;
+}
+/* 搜索产品页 */
+
+/* 搜索结果 */
+.searchLines .lfColumn,.searchBottom .lfColumn{
+	width:730px;
+}
+.searchLines .rgColumn,.searchBottom .rgColumn{
+	width:230px;
+}
+.searchLines .listContent th{
+	border-bottom:1px solid #FFF;
+}
+/* 搜索结果 */
+
+/* 搜索失败 */
+.searchLines .error .lfColumn{
+	width:250px;
+}
+.searchLines .error .rgColumn{
+	width:398px;
+	height:auto;
+}
+/* 搜索失败 */
+
+/* 搜索产品页 */
+.results_item{
+	padding:10px;
+	border: 1px solid #dbdbdb;
+	overflow:hidden;
+	margin-bottom:15px;
+	position:relative;
+}
+.results_item .lfColumn{
+	width:182px;
+}
+.results_item .rgColumn{
+	width:506px;
+	position:relative;
+	overflow:visible;
+	*zoom:1;
+}
+.results_item .lfColumn .submit{
+	width:80px;
+	font-size:16px;
+	height:25px;
+	line-height:25px;
+	margin:15px 50px;
+}
+.results_item .item_pic{
+	width:180px;
+	height:140px;
+	border: 1px solid #dbdbdb;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	line-height:138px;
+}
+.results_item .item_pic img{
+	max-width: 180px;
+	max-height: 140px;
+	vertical-align: middle;
+	_width: expression((this.width / this.height>= 1.286) ? '180px':'auto');
+	_height: expression((this.width / this.height < 1.286) ? '140px':'auto');
+}
+.results_item .address{
+	margin-bottom:10px;
+	height:15px;
+	position:relative;
+	clear:both;
+	*zoom:1;
+}
+.results_item .address a{
+	position:absolute;
+	right:0;
+}
+.results_item .summary{
+	font-size:16px;
+	line-height:24px;
+	margin-bottom:10px;
+	height:24px;
+}
+.results_item .summary .title,.results_item .summary .starCont{
+	float:left;
+	margin-right:10px;
+}
+.results_item .btn{
+	float:right;
+}
+.results_item .fav{
+	position:static;
+	*float:left;
+	display:inline-block;
+	width:45px;
+	line-height:25px;
+	height:25px;
+}
+.results_item .fav i{
+	margin-top:5px;
+	*margin:0;
+	*margin-top:5px;
+}
+.results_item .listContent tr{
+	visibility:hidden;
+}
+.results_item .listContent tr td{
+	border-bottom:0;
+}
+.results_item .listContent .cz{
+	padding-top:58px;
+}
+.results_item .listContent .hover{
+	visibility:visible;
+}
+.results_item .listContent .hover td{
+	border-bottom: 1px dashed #DDD;
+}
+.results_item .article{
+	width:350px;
+}
+.results_item .article p{
+	line-height: 1.5em;
+	margin-bottom:10px;
+}
+.results_item .priceCont{
+	width:110px;
+	height:50px;
+	position:absolute;
+	top:50px;
+	right:0;
+}
+.results_item .priceCont .price{
+	font-size:30px;
+}
+.results_item .priceCont .price em{
+	font-size:16px;
+}
+/* 搜索产品页 */
+
+/* 搜索产品页条件 */
+.travelList .attr .bot .text{
+	margin-right:15px;
+}
+.travelList .attr .bot .smallBtn{
+	*min-width:0;
+}
+/* 搜索产品页条件 */
+
+/*日历 */
+.calendarContent{
+	width:470px;
+	min-height:365px;
+	margin-top:25px;
+	position:relative;
+	overflow:hidden;
+}
+.calendarloading{
+	width:468px;
+	height:365px;
+	border:1px solid #CCC;
+	position:relative;
+}
+.calendarloading .loadingtips{
+	width:100px;
+	height:18px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin:-9px 0 0 -50px;
+}
+.calendarloading .preloader{
+	width: 18px;
+	height: 18px;
+	background: url(/static/images/preloader_18x18.gif);
+	float:left;
+}
+.calendarloading .tx{
+	height: 18px;
+	line-height:18px;
+	float:left;
+	margin-left:5px;
+}
+.calendar{
+	width:468px;
+	border:1px solid #CCC;
+}
+.calendar th{
+	height:25px;
+}
+.calendar .monthRow th{
+	border-bottom:1px solid #CCC;
+}
+.calendar .preMonth,.calendar .nextMonth,.calendar .thisMonth{
+	float:left;
+	width:66px;
+	height:25px;
+	line-height:25px;
+	display:block;
+	cursor:pointer;
+}
+.calendar .preMonth:hover,.calendar .nextMonth:hover,.calendar .thisMonth:hover{
+	color:#FF8700;
+	text-decoration:none;
+}
+.calendar .thisMonth{
+	width:34px;
+	height:19px;
+	line-height:19px;
+	background-color:#E4E4E4;
+	margin:3px 0 auto 28px;
+	color:#333;
+	border-radius:3px;
+	font-weight:normal;
+}
+.calendar .thisMonth:hover{
+	background-color:#D3D3D3;
+	color:#333;	
+}
+.calendar .fulltime{
+	float:left;
+	width:270px;
+	height:25px;
+	line-height:25px;
+}
+.calendar .weekRow th{
+	font-weight:normal;
+}
+.calendar tr td{
+	width:58px;
+	height:54px;
+	vertical-align:top;
+	padding:4px;
+	border:1px solid #CCC;
+	color:#690;	
+}
+.calendar tr .weekend{
+	/* background-color:#F8F8F8; */
+}
+.calendar tr .pq{
+	padding:0;
+}
+.calendar tr .pqSelected{
+	background-color:#690;
+}
+.calendar tr .curDay{
+	background-color:#FFF8F0;
+	color:#FF8700
+}
+.calendar tr .curDay .tagToday{
+	color:#FFF;
+	padding:1px 2px;
+	background-color:#FF8700;
+	float:right;
+	border-radius:2px;
+}
+.calendar tr td span{
+	cursor:pointer;
+}
+.calendar tr .pq a{
+	color:#690;
+	width:58px;
+	height:54px;
+	padding:4px;
+	display:block;
+	position:relative;
+}
+.calendar tr td a:hover{
+	background-color:#F4FFE0;
+	text-decoration:none;
+}
+.calendar tr td a .sy{
+	position:absolute;
+	right:4px;
+	top:24px;
+}
+.calendar tr td a .price{
+	position:absolute;
+	right:4px;
+	bottom:2px;
+}
+.calendar tr td a .icon{
+	position:absolute;
+	right:4px;
+	top:4px;
+}
+.calendar tr .pqSelected a{
+	color:#FFF;
+}
+.calendar tr .pqSelected a:hover{
+	background-color:#690;
+}
+.calendar tr .nextMonthDay,.calendar tr .nextMonthDay a,.calendar tr .prevMonthDay,.calendar tr .prevMonthDay a{
+	color:#CCC;
+}
+.calendar tr .pqSelected a,.calendar tr .pqSelected a .price,.calendar tr .pqSelected a .sy{
+	color:#FFF;
+}
+/*日历 */
+
+/*排期详情、团号、价格*/
+/* .info{
+	padding:15px;
+	position:relative;
+}
+.info p{
+	height:30px;
+}
+.info select{
+	padding:3px;
+}
+.info .lfColumn,.info .rgColumn{
+	width:200px;
+	line-height:30px;
+}
+.info .row{
+	clear:both;
+	height:auto;
+	line-height: 30px;
+}
+.info .row .th{
+	float:left;
+	width:60px;
+}
+.info .row .num{
+	float:left;
+}
+.rgColumn .info .row .num{
+	width:370px;
+}
+.info .row .num a{
+	word-break:break-all;
+}
+.info .row .num a img{
+	vertical-align:middle;
+	margin-right:5px;
+}
+.info .littleTips{
+	color:#690;
+}
+.info .line{
+	border-top: 1px solid #D3D3D3;
+	border-bottom: 1px solid #FFF;
+}
+.info .submit{
+	width:160px;
+	height:35px;
+	font-size:18px;
+}
+.info a.submit{
+	line-height:35px;
+}
+.info .submit:hover{
+	color:#FFF;
+	text-decoration:none;
+}
+.info .fav span{
+	float:left;
+}
+.info .price{
+	font-weight:bold;
+}
+.info .adults{
+	font-size:18px;
+}
+.info .children{
+	font-size:14px;
+}
+.info .mr{
+	margin-right:30px;
+}
+.infoteam .lfColumn{
+	height:auto;
+}
+.infoteam .row img{
+	vertical-align:middle;
+	margin-right:5px;
+} */
+/*排期详情、团号、价格*/
+
+/* 搜索产品日历 */
+.listContent .calendarContent tr th{
+	background-color:#FFF;
+	font-size: 12px;
+	padding:0;
+	color: #6C6C6C;
+	font-weight: normal;
+	border-right:none;
+	border-bottom:1px solid #CCC;
+}
+.listContent .calendarContent tr td{
+	text-align:left;
+}
+.calendarTd .calendarContent{
+	position:static;
+	margin:0 auto;
+}
+
+.listContent .searchTips:hover{
+	text-decoration:none;
+}
+.calendarTd .info p{
+	margin-bottom:0;
+	line-height:22px;
+	height:25px;
+}
+.calendarTd .lfColumn{
+	width:468px;
+}
+.calendarTd .detail{
+	margin:0;
+	width:260px;
+	background-color:#F4F4F4;
+	height:368px;
+	text-align:left;
+}
+.calendarTd .detail .info .row .num{
+	width:174px;
+}
+.calendarTd .detail .info .row .num a{
+	word-wrap: break-word; 
+}
+.calendarTd .detail .info{
+	padding:13px;
+}
+.calendarTd .detail .info .submit{
+	background-color:#FF5C00;
+}
+.calendarTd .detail .info .littleTips{
+	line-height:18px;
+}
+.calendarTd .detail .info .rgColumn{
+	margin-left:0;
+}
+.calendarTd .detail .info .lfColumn{
+	line-height:22px;
+	width:auto;
+}
+/* 搜索产品日历 */
+
+/*线路详情页弹出框样式*/
+.alertBox .alertTips{
+	background-color:#fff8aa;
+	padding:15px;
+	text-indent:0;
+	margin-bottom:15px;
+}
+.alertBox .alertTips em{
+	color:red;
+	margin-right:5px;
+}
+.alertBox .alertTips .input01{
+	position:relative;
+	margin-right:30px;
+}
+.alertBox .alertTips .input01 .text{
+	width:30px;
+	margin-left:15px;
+}
+.alertBox .alertTips .input02 .text{
+	width:95px;
+}
+.alertBox .detail{
+	text-indent:0;
+}
+.alertBox .listContent .smallBtn{
+	margin: 0;
+}
+.alertBox .selectPrice{
+	padding:15px;
+}
+.alertBox .selectPrice span{
+	margin-right:20px;
+}
+.alertBox .selectPrice .total{
+	font-weight:bold;
+	font-size:18px;
+}
+.alertBox .info{
+	background-color:#FFF;
+}
+.alertBox .info .submitBtn{
+	height:auto;
+}
+.alertBox .info .submitBtn input{
+	margin-top:0;
+}
+.alertBox .btnBar{
+	height:0;
+	padding:0;
+}
+.alertBox .alertTips .plus{
+	position:absolute;
+	right:-18px;
+	top:7px;
+}
+.alertBox .alertTips .minus{
+	position:absolute;
+	left:33px;
+	top:7px;	
+}
+/*线路详情页弹出框样式*/
+
+/*新酒店搜索*/
+.roomList{
+	clear:both;
+	margin-top:15px;
+}
+.hotel .results_item .showRooms{
+	position:absolute;
+	right:10px;
+	bottom:10px;
+}
+.hotel .results_item .address{
+	position:static;
+}
+.hotel .results_item .rgColumn{
+	min-height:142px;
+	width:460px;
+}
+.hotel .results_item .rgColumn .detail{
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.hotel .results_item .price em{
+	font-weight:normal;
+	font-size:12px;
+}
+/* .hotel .results_item .listContent tr{
+	display:table-row;
+}
+.hotel .results_item .listContent tr td{
+	border-bottom: 1px dashed #DDD;
+} */
+.hotel .results_item .listContent .hidden{
+	display:none;
+}
+.hotel .results_item .fav{
+	position:absolute;
+	right:10px;
+	top:10px;
+}
+/*新酒店搜索*/

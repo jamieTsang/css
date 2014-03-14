@@ -1,0 +1,162 @@
+﻿/* 机票样式表 最后修改日期20131115 */
+.flight .lfColumn{width:330px;}
+.flight .rgColumn{width:630px;}
+.flight .filter li{padding: 0 3px;}
+
+/*机票搜索*/
+.flight .error .lfColumn{
+	width:250px;
+}
+.flight .listContent{
+	font-size:12px;
+}
+.flight .listContent .submit{
+	width:70px;
+	height: 22px;
+	line-height:16px;
+	background-color:#FF5C00;
+}
+.flight .listContent .unfold{
+	margin-top:5px;
+	display:block;
+}
+.flight .listContent .detail td{
+	border:none;
+}
+/*机票搜索*/
+
+/*往返搜索*/
+.round_box .lfColumn,.round_box .rgColumn{
+	width:488px;
+}
+.round_box .lfColumn{
+	border-right:4px solid #CCC;
+	min-height:165px;
+}
+.round_box .rgColumn{
+	margin-left:0;
+}
+.round_box .title{
+	border-top: 3px solid #690;
+	background: #f8f8f8;
+	padding: 10px 0 15px 0;
+	font-size:12px;
+	padding-left: 20px;
+}
+.round_box .title strong{
+	font-size:18px;
+	font-family:"Microsoft Yahei",SimHei,sans-serif;
+}
+.round_box .title h2{
+	font-weight:normal;
+}
+.round_box .listContent  .submit{
+	width:60px;
+	height:25px;
+	line-height:24px;
+}
+.round_box .radio{
+	margin: -4px 2px 0 0;
+	*margin: -3px 0px 0 -6px;
+}
+.round_box .info{
+	clear:both;
+}
+.round_box .submitBtn{
+	font-family:"Microsoft Yahei",SimHei,sans-serif;
+}
+.round_box .submitBtn,.round_box .submitBtn em{
+	font-size:18px;
+}
+.round_box .show_all{
+	text-align:right;
+	margin:10px;
+	display:none;
+}
+.round_box .submitBtn,.round_box .submit{
+	*zoom:1;
+}
+/*往返搜索*/
+
+/*填写订单*/
+.flightOrder .pdInfo ul li{
+	margin-top:0;
+}
+.flightOrder .travelerList .text{
+	width:68px;
+}
+.flightOrder .travelerList .name{
+	width:50px;
+}
+.flightOrder .travelerList .country{
+	width:50px;
+}
+/*填写订单*/
+.insideBox{min-height:337px;}
+.insideBox,.insideBoxTitle{border:1px solid #f0be10;overflow:hidden;padding-bottom:9px;background:#fffef9;position:relative;line-height: 20px;}
+.insideBoxTitle{
+	border-bottom:none;
+	padding-bottom:0;
+	height:34px;
+}
+.insideBoxTitle h2{
+	width:110px;
+	height:23px;
+	background:url(/static/images/flight_sprite.png) no-repeat 0 0;
+	margin:5px;
+	text-indent:-9999em;
+}
+.insideBox .topTag{width:368px;height:43px}
+.insideBox .topTag li{height:43px;float:left;cursor:pointer}
+.insideBox .topTag li.hotels,.insideBox .topTag li.hotels_action{width:183px;background:url(../pic/newindex.png?t=201307261613) no-repeat 0 -43px}
+.insideBox .topTag li.hotels_action{background-position:0 0}
+.insideBox .topTag li.flights,.insideBox .topTag li.flights_action{width:185px;background:url(../pic/newindex.png?t=201307261613) no-repeat 0 -129px}
+.insideBox .topTag li.flights_action{background-position:0 -86px}
+.insideBox .topTagNew{width:368px;height:43px}
+.insideBox .topTagNew li{height:43px;float:left;cursor:pointer}
+.insideBox .topTagNew li.hotels,.insideBox .topTagNew li.hotels_action{width:123px;background:url(../pic/newindex.png?t=201307261613) no-repeat 0 -359px}
+.insideBox .topTagNew li.hotels_action{background-position:-123px -359px}
+.insideBox .topTagNew li.flights,.insideBox .topTagNew li.flights_action{width:123px;background:url(../pic/newindex.png?t=201307261613) no-repeat 0 -402px}
+.insideBox .topTagNew li.flights_action{background-position:-123px -402px}
+.insideBox .topTagNew li.phone,.insideBox .topTagNew li.phone_action{width:122px;background:url(../pic/newindex.png?t=201307261613) no-repeat 0 -445px}
+.insideBox .topTagNew li.phone_action{background-position:-122px -445px}
+.insideBox .phoneCon{width:368px;height:340px;background:#fff}
+.insideBox .phoneCon .top{width:368px;height:185px;background:url(../pic/newindex.png?t=201307261613) no-repeat 0 -488px}
+.insideBox .phoneTel{width:180px;height:120px;float:left;margin:16px 0 0 20px;display:inline;color:#555;font:14px "Microsoft Yahei",Simsun}
+.insideBox .phoneTel li{margin-bottom:17px}
+.insideBox .phoneTel input.txt{width:165px;height:29px;border:1px solid #bbb;color:#999;padding-left:3px;line-height:29px}
+.insideBox .phoneTel input.but{width:170px;height:30px;background:url(../pic/newindex.png?t=201307261613) no-repeat 0 -673px;border:0;text-align:center;color:#fff;font:16px "Microsoft Yahei",Simsun;cursor:pointer}
+.insideBox .phoneTel input.zzfs{background-image:none;background-color:#999}
+.insideBox .phoneTel input.but:hover{background:url(../pic/newindex.png?t=201307261613) no-repeat 0 -703px}
+.insideBox .phoneTel input.zzfs:hover{background-image:none;background-color:#999}
+.insideBox .phoneerw{width:135px;height:110px;float:right;margin:20px 20px 0 0;display:inline;background:url(/static/images/flight_sprite.png) no-repeat -233px -673px}
+.insideBox .phoneTel span.cg{width:170px;height:30px;display:inline-block;text-align:center;background:#fff;color:#999;font:16px "Microsoft Yahei",Simsun}
+.insideBox .phoneTel span.cgicon{width:20px;height:16px;display:inline-block;background:url(../pic/newindex.png?t=201307261613) no-repeat -348px -0px;vertical-align:middle;margin-right:5px}
+.insideBox .centerTag{height:28px;margin-top:18px;padding-left:30px}
+.insideBox .centerTag li{width:80px;height:22px;float:left;text-align:center;color:#ba8a49;font:14px "Microsoft Yahei",Simsun;cursor:pointer}
+.insideBox .centerTag li.action{background:#a37833;color:#fff;position:relative}
+.insideBox .centerTag li.action span{width:9px;height:5px;background:url(../pic/newindex.png?t=201307261613) no-repeat -183px 0;position:absolute;top:22px;left:35px;overflow:hidden}
+.insideBox .txtList{width:307px;margin:10px 0 0 30px;position:relative}
+.insideBox .adList{width:230px;position:absolute;right:30px;top:10px;}
+.insideBox .txtList dt{width:57px;height:31px;float:left;font:14px "Microsoft Yahei",Simsun;color:#ba8a49;margin-bottom:15px;line-height:31px;text-align:right;padding-right:8px}
+.insideBox .txtList dd{width:242px;height:31px;margin-bottom:15px;float:left}
+.insideBox .swapBut{width:21px;height:54px;background:url(/static/images/flight_sprite.png) no-repeat -127px 0;display:inline-block;position:absolute;left:310px;top:60px;cursor:pointer}
+.insideBox .swapBut:hover{background-position:-148px 0}
+input.txT,input.txtDate,input.select{width:235px;height:29px;border:1px solid #bbb;font:14px "Microsoft Yahei",Simsun;line-height:29px;padding:0;padding-left:5px;color:#333;}
+input.txtDate{background:#fff url(/static/images/flight_sprite.png) no-repeat 215px -34px}
+.inputFlightsTom{position:absolute;top:143px;*top:144px;_top:150px;left:160px;color:#999;font:14px "Microsoft Yahei",Simsun}
+.inputFlightsWeek{position:absolute;top:188px;*top:190px;_top:198px;left:160px;color:#999;font:14px "Microsoft Yahei",Simsun}
+.allserchBut{width:240px;height:34px;background:url(/static/images/flight_sprite.png) no-repeat 0 -74px;cursor:pointer;border:0}
+.allserchBut:hover{background-position:0 -108px}
+input.select{background:#fff url(/static/images/flight_sprite.png) no-repeat 215px -150px;cursor:pointer;}
+.mainDetail{
+	padding:0;
+	padding-top:15px;
+}
+.mainDetail ul.tips{
+	padding:10px;
+	height:60px;
+}
+.mainDetail ul.tips table tr td{
+	font-size:12px;
+}

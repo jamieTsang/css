@@ -1,0 +1,201 @@
+﻿/* 登录界面 最后修改日期20130918 */
+
+/* reset */
+body,ul,li,input,p,form{
+	margin: 0;
+	padding: 0;
+	font-family:Tahoma,Verdana,Arial,"SimSun";
+	font-size:12px;
+	color:#666666;
+}
+ul,li{
+	list-style-type:none;
+}
+input{
+	color:#101010;
+	border:1px solid #ddd;
+	border-top-color:#bbb;
+	border-radius:2px;
+	vertical-align:middle;
+	-webkit-transition:border linear .2s, box-shadow linear .2s;
+	-moz-transition:border linear .2s, box-shadow linear .2s;
+	-ms-transition:border linear .2s, box-shadow linear .2s;
+	-o-transition:border linear .2s, box-shadow linear .2s;
+	transition:border linear .2s, box-shadow linear .2s
+}
+a {
+	text-decoration:none;
+	blr:expression(this.onFocus=this.blur());/* IE */
+	color:#8A8A8A;
+}
+a:hover{
+	color:#669900;
+	text-decoration:underline;
+}
+img{
+	border: none
+}
+/* reset */
+
+/* 登录面版 */
+.login_pannel{
+	width:328px;
+	background-color:#F7F7F7;
+	border-radius:5px;
+	margin:0 auto;
+	position:relative;
+}
+.header{
+	height:45px;
+	border-bottom:1px #E2E2E2 solid;
+	font-family:'microsoft yahei';
+	font-size:16px;
+	position:relative;
+}
+.header .switch{
+	position:absolute;
+	width:200px;
+	height:30px;
+	left:64px;
+	bottom:0px;
+}
+.header .switch .switch_btn{
+	height:30px;
+	text-decoration:none;
+	color:#999999;
+}
+.header .switch .hover,.header .switch .switch_btn:hover{
+	color:#666666;
+}
+.header .switch .switch_member{
+	margin-right:67px;
+}
+.header .switch .switch_bottom {
+	position: absolute;
+	bottom: -1px;
+	border-bottom: 2px solid #669900;
+	width:64px;
+	left:0;
+}
+.body_frame{
+	position:relative;
+	overflow:hidden;
+	height:277px;
+}
+.body_content{
+	position:absolute;
+	width:328px;
+	height:277px;
+}
+.body{
+	margin:0 auto;
+	width:328px;
+	float:left;
+	display:inline;
+}
+.input_ui{
+	margin-left:30px;
+	margin-top:20px;
+	height:31px;
+	width:280px;
+}
+.min_input_ui{
+	height:16px;
+}
+.checkCont{
+	margin-top:15px;
+	padding-left:55px;
+}
+.member .input_ui label{
+	width:45px;
+}
+.quicklog .input_ui label{
+	width:60px;
+}
+.input_ui label{
+	display:inline-block;
+	padding-right:10px;
+	line-height:31px;
+	text-align:right;
+}
+.input_ui .text{
+	font-size:12px;
+	padding:7px;
+	border-radius:3px;
+	font-family: Verdana,Tahoma,Arial;
+	line-height:13px;
+	width:185px;
+}
+.text:hover{
+	border-color:#d0d0d0;
+	border-top-color:#acacac;
+	-webkit-box-shadow:inset 0 1px #f5f5f5;
+	-moz-box-shadow:inset 0 1px #f5f5f5;
+	box-shadow:inset 0 1px #f5f5f5
+}
+.text:focus{
+	border-color:#690;
+	outline:0;
+	-webkit-box-shadow:0 0 8px rgba(102, 153, 0, .6);
+	-moz-box-shadow:0 0 8px rgba(102, 153, 0, .6);
+	box-shadow:0 0 8px rgba(102, 153, 0, .6);
+}
+.check{
+	margin:0 5px;
+	border:0;
+	*margin-top:4px;
+	*margin-left:2px;
+}
+.input_ui .margin_lf{
+	margin-left:55px;
+	*margin-left:40px;
+}
+.quicklog .input_ui .margin_lf{
+	margin-left:75px;
+}
+.input_ui .zfb i{
+	margin:0 5px;
+}
+.min_sumbit_ui{
+	height:37px;
+}
+.body .min_sumbit_ui a{
+	line-height:35px;
+	margin-left:15px;
+}
+.submit{
+	border:none;
+	background-color:#690;
+	color:#FFF;
+	cursor:pointer;
+	font-size:14px;
+	text-align:center;
+	display:inline-block;
+	font-family: "Microsoft Yahei";
+	font-size:18px;
+	height:35px;
+	line-height:35px;
+	width:95px;
+}
+.footer{
+	position:absolute;
+	border-top:1px solid #E2E2E2;
+	text-align:center;
+	bottom:0;
+	left:0;
+	width:330px;
+}
+.footer p{
+	padding:10px 0;
+}
+/* 登录面版 */
+
+
+
+
+
+
+
+
+
+
