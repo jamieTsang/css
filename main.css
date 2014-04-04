@@ -2513,4 +2513,7 @@
 .visa_block,.visa_block .tab_content{
 	margin-bottom:0;
 }
+.visa_block .botCont .lineContent{
+	width:670px;
+}
 /*签证频道*/

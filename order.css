@@ -1,4 +1,4 @@
-﻿/* 订单页样式表 最后修改日期20140314 */
+﻿/* 订单页样式表 最后修改日期20140404 */
 
 /*sprite*/
 .pd_photoCont .btn,.forms .borderBox .destination i,.HotelDetail_slide .close,.pkg-circle-prev,.pkg-circle-next,.teamDetail .downloadList i{
@@ -1814,7 +1814,8 @@
 	line-height:1.6em;
 }
 .cruise .ticketCont .attr .last{
-	height:143px;
+	height:178px;
+	overflow: hidden;
 }
 .cruise .detail_info{
 	text-align:left;
