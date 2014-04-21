@@ -1,4 +1,4 @@
-﻿/* 订单页样式表 最后修改日期20140404 */
+﻿/* 订单页样式表 最后修改日期20140421 */
 
 /*sprite*/
 .pd_photoCont .btn,.forms .borderBox .destination i,.HotelDetail_slide .close,.pkg-circle-prev,.pkg-circle-next,.teamDetail .downloadList i{
@@ -743,6 +743,7 @@
 	border-bottom:2px solid #690;
 }
 .date .rgColumn h2{
+	height:59px;
 	/* border-bottom:1px dashed #CCC;
 	height:59px;
 	text-indent:50px;

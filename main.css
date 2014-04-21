@@ -1,10 +1,10 @@
-/* 二级页面样式表 最后修改日期20140314 */
+/* 二级页面样式表 最后修改日期20140421 */
 
 /*sprite*/
 .leftmenu .list .icon, .leftmenu .hover .list .icon, .triBlock .triColumn h2 i, .zyt .zyt_inner_title, .zyt .zyt_inner ul li, .zyt .zyt_box .lf_slide, .zyt .zyt_box .rg_slide,.groupBuying .attr li i,.addFocus .link .icon,.addFocus .gzl_weixin{
 	background:url(/static/images/sprite_index.png) no-repeat;
 }
-/*.newsCont a*/.newsCont .sp_ad a/*旧版*/{
+.newsCont a .icon/* .newsCont .sp_ad a *//*旧版*/{
 	background:url(/subject/images/sprite_news.png) no-repeat;
 }
 /*sprite*/
@@ -455,7 +455,7 @@
 
 /*线路分类*/
 .special {
-	height:245px;/*旧版 */
+	/* height:245px; *//*旧版 */
 	overflow:hidden;
 }
 .special .topCont .plusPic{
@@ -501,7 +501,7 @@
 /*线路分类 - 热点活动*/
 
 /*线路分类 - 特色线路_旧版*/
-.special .tabContent {
+/* .special .tabContent {
 	height:218px;
 	*zoom:1;
 }
@@ -522,7 +522,7 @@
 }
 .special .tabContent .tsline .blockTitle15 span{
 	width:60px;
-}
+} */
 /*线路分类 - 特色线路_旧版*/
 
 /*线路分类 - 团购*/
@@ -557,11 +557,11 @@
 
 /*线路分类 - 资讯*/
 /* 旧版 */
-.special .tabContent .newsCont .sp_ad{
+/* .special .tabContent .newsCont .sp_ad{
 	width:181px;
-}
+} */
 /* 旧版 */
-.newsCont .sp_ad a{
+/* .newsCont .sp_ad a{
 	display:block;
 	width:86px;
 	height:86px;
@@ -594,29 +594,38 @@
 }
 .special .tabContent .newsCont dt a{
 	width:450px;
-}
+} */
 /* 旧版 */
 /* 新版 */
-/* .newsCont{
+.newsCont{
 	float:left;
 	margin:0 10px 0 0;
-	border-top:1px solid #ececec;
+	/* border-top:1px solid #ececec; */
 	width:71px;
 }
 .newsCont a{
 	display:block;
 	width:71px;
 	height:62px;
-	text-indent:-99999em;
+	/* text-indent:-99999em; */
 	border:1px solid #ececec;
 	border-top:none;
 	opacity:.8;
 	filter:alpha(opacity=80);
 	margin:0;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
 }
-/* .newsCont li:first-child{
+.newsCont a .icon{
+	display:block;
+	width:35px;
+	height:31px;
+	margin:5px auto;
+}
+.newsCont li:first-child{
 	border-top:1px solid #ececec;
-} */
+}
 .special .newsCont li{
 	float:none;
 	display:block;
@@ -625,19 +634,21 @@
 	opacity:1;
 	filter:alpha(opacity=100);
 }
-.newsCont .save_money{
-	background-position:0 0;
+.newsCont .save_money .icon{
+	background-position:-18px 0;
 }
-.newsCont .weekend{
-	background-position:-86px 0;
+.newsCont .hot_sale .icon{
+	background-position:-88px 0;
 }
-.newsCont .hot_sale{
-	background-position:-174px 0;
+.newsCont .weekend .icon{
+	background-position:-160px 0;
 }
-.newsCont .guide{
-	background-position:-264px 0;
+.newsCont .guide .icon{
+	background-position:-230px 0;
 }*/
 /* 新版 */
+/*线路分类 - 新闻列表*/
+
 .newsMore{
 	position:absolute;
 	right:0px;
@@ -2455,10 +2466,10 @@
 	border-top:0;
 	height:203px;
 }
-.newsList .block .rightCont .lineContent{
+/* .newsList .block .rightCont .lineContent{
 	padding:0;
 	width:auto;
-}
+} */
 .newsList .block .blk1 .p_blk_title{
 	left:0;
 }
@@ -2472,13 +2483,23 @@
 	left:240px;
 	width:100px;
 }
-.newsList .block .rightCont .lineContent dt a{
-	width:335px;
-}
+/* .newsList .block .rightCont .lineContent dt a{
+	width:100%;
+	font-size:12px;
+} */
 .newsList .get_more{
 	position:absolute;
 	right:15px;
 	bottom:15px;
+}
+.newsList .block .lineContent{
+	float:none;
+	padding:0;
+	width:auto;	
+}
+.newsList .block .lineContent a{
+	width:auto;
+	line-height:1.2em;
 }
 /*新首页新闻中心*/
 
