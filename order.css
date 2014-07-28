@@ -1,4 +1,4 @@
-﻿/* 订单页样式表 最后修改日期20140421 */
+﻿/* 订单页样式表 最后修改日期20140716 */
 
 /*sprite*/
 .pd_photoCont .btn,.forms .borderBox .destination i,.HotelDetail_slide .close,.pkg-circle-prev,.pkg-circle-next,.teamDetail .downloadList i{
@@ -612,14 +612,14 @@
 }
 .teamDetail .p_blk .p_blk_title{
 	top:-31px;
-	width:79px;
+	/*min-width:79px;*/
 	border-width: 1px 1px 0px 1px;
 	border-style:solid;
 	border-color:#CCC #CCC transparent #CCC;
 	background-color:#FFF;
 	line-height:30px;
 	height:30px;
-	padding:0;
+	padding:0 13px;
 }
 .teamDetail .hover .p_blk_title{
 	border-color:#690 #690 transparent #690;
@@ -636,10 +636,10 @@
 }
 .teamDetail .blk2 .p_blk_title{
 	left:80px;
-	width:300px
+	/*width:430px*/
 }
 .teamDetail .blk3 .p_blk_title{
-	left:380px;
+	left:511px;
 }
 .teamDetail .blk4 .p_blk_title{
 	left:460px;
@@ -693,6 +693,7 @@
 	border-top:2px solid #690;
 	padding:20px 25px;
 	position:relative;
+    font-size: 13px;
 }
 .teamDetail .p_blk .tab_content p{
 	line-height:1.8em;
@@ -704,7 +705,7 @@
 }
 .teamDetail .p_blk .tab_content .tips{
 	color:#FF8700;
-	width:350px;
+	/*width:350px;*/
 }
 .teamDetail .tab_content .date .lfColumn{
 	width:100px;
@@ -735,6 +736,10 @@
 	font-weight:bold;
 	font-family:Arial;
 	padding:0 5px;
+}
+.date .lfColumn .week_date {
+    color: #690;
+    line-height: 2em;
 }
 .date .lfColumn h2{
 	font:bold 20px "Microsoft Yahei";
@@ -1363,6 +1368,64 @@
 }
 /*支付表单*/
 
+/*支付表单_使用电子优惠劵*/
+.e_coupon{
+    margin: 30px 0;
+}
+.paymentInfo .e_coupon .layout{
+    margin: 0;
+}
+.e_coupon .e_coupon_content{
+    display: none;
+}
+.e_coupon .e_coupon_content .input_content{
+    margin-right: 15px;
+    position: relative;
+    padding: 8px;
+    border: 1px dashed #CCC;
+    width: 676px;
+    margin: 5px;
+    float: left;
+}
+.e_coupon .input_content .smallBtn{
+    margin-top: 5px;
+}
+.e_coupon .input_content .close{
+    position: absolute;
+    right: 5px;
+    top: 0px;
+    display: block;
+}
+.e_coupon .title{
+    font-size: 13px;
+}
+.e_coupon .input_content .layout{
+    margin: 5px 0;
+}
+.paymentInfo .e_coupon .plus_coupon{
+    padding-left: 22px;
+    display: block;
+    clear: both;
+}
+.paymentInfo .e_coupon label{
+    width: 50px;
+    text-align: right;
+}
+.e_coupon .plus_coupon p,.e_coupon .plus_coupon .plus{
+    float: left;
+}
+.e_coupon .plus_coupon p{
+    line-height: normal;
+    margin: 2px 0;
+}
+.e_coupon .plus_coupon .plus{
+    margin: 3px;
+}
+.e_coupon .control{
+    margin-top: 15px;
+}
+/*支付表单_使用电子优惠劵*/
+
 /*支付完成弹出框*/
 .paymentAlert p{
 	text-indent:2em;
@@ -1908,8 +1971,8 @@
 	margin-bottom:45px;
 }
 .teamDetail .p_blk .tab_content .travel_list p{
-	margin-bottom:15px;
-	line-height:1.6em;
+	margin-bottom:20px;
+	line-height:2.3em;
     text-align:justify;
 	/* text-justify:distribute-all-lines; *//*ie6-8*/
 	*text-justify:auto;/*ie6-8*/
@@ -1971,6 +2034,7 @@
 	margin-top:10px;
 	padding:0 12px;
 	clear:both;
+    line-height: 1.8em;
 }
 .travel_list .special_column:first-child{
 	margin-left:0;
@@ -1992,10 +2056,10 @@
 	margin-bottom:35px;
 }
 .travel_list .intro .lfColumn{
-	width:400px;
+	width:300px;
 }
 .travel_list .intro .rgColumn{
-	width:500px;
+	width:595px;
 }
 .travel_list .intro .title20{
 	margin:20px 0;
@@ -2098,7 +2162,7 @@
 	margin-bottom:25px;
 }
 .wrapPic{
-	margin:0 25px 10px 0;
+	margin-right:10px;
 }
 .food .special_column .textField a{
 	margin:0;
@@ -2112,14 +2176,14 @@
 }
 .date_list .date .rgColumn .rgColumn{
 	width:265px;
-	height:147px;
+	/*height:147px;*/
 	margin-left:30px;
 }
 .date_list .date .view{
-	margin-bottom:15px;
+	margin:15px 0;
 	/* margin-left:50px; */
 }
-.date_list .date .view p{
+.teamDetail .p_blk .date_list .date .view p{
 	margin-bottom:0;
 }
 .date_list .date p b{

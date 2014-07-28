@@ -1,4 +1,4 @@
-﻿/* 会员中心-帮助中心-页脚信息-下载中心 样式表 最后修改日期20140208 */
+﻿/* 会员中心-帮助中心-页脚信息-下载中心 样式表 最后修改日期20140505 */
 
 /* sprite */
 .download .pdInfo .list dt .clip{
@@ -543,6 +543,12 @@ ul.tips{
 .lineDetail .submit{
 	float:left;
 	margin:17px 45px;
+}
+.lineDetail .input02 span{
+    display: block;
+    float: left;
+    width: 240px;
+    white-space: normal;
 }
 /*  组团游线路详情样式*/
 
