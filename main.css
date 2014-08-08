@@ -1,4 +1,4 @@
-﻿/* 二级页面样式表 最后修改日期20140806 */
+﻿/* 二级页面样式表 最后修改日期20140808 */
 @charset "utf-8";
 /*sprite*/
 .leftmenu .list .icon, .leftmenu .hover .list .icon, .triBlock .triColumn h2 i, .zyt .zyt_inner_title, .zyt .zyt_inner ul li, .zyt .zyt_box .lf_slide, .zyt .zyt_box .rg_slide, .groupBuying .attr li i, .addFocus .link .icon, .addFocus .gzl_weixin,.addFocus .gzl_dingyuehao {
@@ -2263,7 +2263,7 @@
 .checkCard .FormArea .zytForm_title {width:100%; height:40px; background:#690; font:18px/40px "Microsoft YaHei", simsun; color:#fff; text-indent:10px;}
 .checkCard .FormArea .zytForm_explain01 {padding:10px 20px;}
 .checkCard .FormArea .zytForm_FillIn {width:560px; margin:0 auto; padding:20px 0;}
-.checkCard .FormArea .zytForm_FillIn li {width:100%; padding:8px 0; display:inline-block; border-bottom:none;}
+.checkCard .FormArea .zytForm_FillIn li {width:100%; padding:8px 0; display:inline-block; border-bottom:none; position:relative;}
 .checkCard .FormArea .zytForm_FillIn li .zytForm_name {float:left; width:70px; padding:0 10px 0 0; font:14px/30px "Microsoft YaHei", SimSun; text-align:right;}
 .checkCard .FormArea .zytForm_FillIn li input {float:left; height:22px; border:1px #ddd solid;}
   .checkCard .FormArea .zytForm_FillIn li .zytForm_input01 {width:250px;}
@@ -2275,6 +2275,9 @@
 .checkCard .FormArea .zytForm_FillIn li .zytForm_TextButton01 {float:left; line-height:30px; color:#999; padding:0 0 0 5px;}
 .checkCard .FormArea .zytForm_FillIn li .zytForm_SubmitButton {width:90px; display:block; margin:10px auto 0; font:18px/36px "Microsoft YaHei", SimSun; color:#fff; background:#690; text-align:center; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;}
 .checkCard .FormArea .zytForm_FillIn li .zytForm_SubmitButton:hover {background:#7BAF14; text-decoration:none;}
+.checkCard .FormArea .zytForm_FillIn li .zytForm_loading {position:absolute; top:-70px; left:150px; width:240px; height:55px; background:#f5f5f5; border:1px #999 solid; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
+.checkCard .FormArea .zytForm_FillIn li .zytForm_loading .photo {width:220px; height:19px; margin:10px auto 0; background:url(http://www.gzl.com.cn/subject/images/zytForm_LoadingBar.gif);}
+.checkCard .FormArea .zytForm_FillIn li .zytForm_loading p {font:14px "Microsoft YaHei", SimSun; color:#333; text-align:center;}
 .checkCard .FormArea .zytForm_QuerySuccessful {width:360px; height:140px; margin:0 auto; padding:60px 0 0 200px; font:16px/36px "Microsoft YaHei", SimSun; color:#666;}
 .checkCard .FormArea .zytForm_QuerySuccessful b {font-size:24px; color:#669900; padding:0 3px 0 0;}
 .checkCard .FormArea .zytForm_QuerySuccessful span.CardNumber {font-size:20px; color:#000;}
