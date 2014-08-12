@@ -1,4 +1,4 @@
-﻿/* 二级页面样式表 最后修改日期20140808 */
+﻿/* 二级页面样式表 最后修改日期20140812 */
 @charset "utf-8";
 /*sprite*/
 .leftmenu .list .icon, .leftmenu .hover .list .icon, .triBlock .triColumn h2 i, .zyt .zyt_inner_title, .zyt .zyt_inner ul li, .zyt .zyt_box .lf_slide, .zyt .zyt_box .rg_slide, .groupBuying .attr li i, .addFocus .link .icon, .addFocus .gzl_weixin,.addFocus .gzl_dingyuehao {
@@ -1527,7 +1527,7 @@
 
 .searchPannel .search_field .search_title {
     line-height: 27px;
-    width: 48px;
+    width: 42px;
     height: 27px;
     display: inline-block;
     text-align: right;
@@ -1561,8 +1561,7 @@
     line-height: 27px;
     display: inline-block;
     float: left;
-    margin-right: 10px;
-    margin-right: 0 \9;
+    margin-right: 5px;
     white-space: nowrap;
 }
 
@@ -1572,7 +1571,7 @@
 }
 
 .searchPannel .search_field .search_value {
-    width: 172px;
+    width: 178px;
     float: left;
     min-height: 27px;
     line-height: 27px;
