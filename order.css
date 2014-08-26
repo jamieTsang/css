@@ -1090,7 +1090,7 @@
     text-align: center;
 }
 .accountInfo .acInfo{
-    width: 290px;
+    width: 385px;
 }
 .accountInfo .acInfoTable .certiType{
     width: 100px;
@@ -1107,6 +1107,9 @@
 }
 .accountInfo .acInfoTable .dt,.accountInfo .acInfoTable .dd{
     padding-bottom: 5px;
+}
+.accountInfo .acInfoTable .dd .text{
+    width: 170px;
 }
 .priceInfo .total font{
 	font-weight:bold;
