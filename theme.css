@@ -1,0 +1,104 @@
+#bottom { width:950px; margin:0 auto;}
+/*#main {width:950px; margin:0 auto;}*/
+.tuan_type{width:830px; padding:0 60px; margin-bottom:30px;}
+.tuan_type .box{margin-right:-40px; overflow:hidden; margin-top:30px;}
+.tuan_type .box_cont{width:248px; height:154px;text-align:center; display:table; border:1px solid #bfbfbf; border-radius:2px; float:left; margin-right:40px; margin-bottom:30px;}
+.tuan_type .box_cont a{display:table-cell;vertical-align:middle;}
+.tuan_type .box_cont a img{*margin-top:40px;}
+.tuan_type .box_cont a:hover{border:4px solid #d4d4d4; border-radius:2px; *border:none}
+/*#header{height:129px;}*/
+/*#header .yuyue_content{width:950px; margin:0 auto;}
+#header .yuyue_content img.logo{margin-top:15px; margin-left:15px;}*/
+.logo_content{width:950px; margin:0 auto;}
+.logo_content img.logo{margin-top:15px; margin-left:15px;}
+#liucheng {margin:0 auto; text-align:center}
+#liucheng span.liucheng_bg{background:url("../images/liucheng_bg.gif") repeat-x; height:30px; width:100%; display:block;}
+#liucheng h1.title{font-size:18px; line-height:50px; color:#666;  font-family:"微软雅黑"; font-weight:bold}
+.yuyue{padding:15px 20px; width:910px; font-family:"微软雅黑"; width:950px;}
+.yuyue .line{width:910px;}
+.yuyue .line ul{ margin-right:-30px; overflow:hidden; border-bottom:1px dashed #d9d9d9; padding-bottom:20px; margin-top:20px; zoom:1}
+.yuyue .line li{float:left; font-size:16px; margin-right:30px;}
+.yuyue .line li a.title{ width:480px; display:inline-block;/* padding-left:15px; background:url("../images/tips_line.gif") no-repeat top left;*/}
+.yuyue .line li span.jiage{ width:110px; display:inline-block;}
+.yuyue .line li strong.line_price{font-size:18px; font-weight:bold; color:#cb0000;}
+.yuyue .line li a.bt{font-size:18px; display:inline-block; border:1px solid #d9d9d9; line-height:38px; background:url("../images/bt_yuyue.gif") repeat-x; padding:0 7px;}
+.yuyue .yuyue_box{width:910px; position:relative; margin-top:10px; clear:both;/**margin-left:-785px;*/}
+.yuyue .yuyue_box .tips{background:url("../images/tips_yuyue.gif") no-repeat; width:17px; height:8px;position:absolute; top:-7px; }
+.yuyue .yuyue_box .yuyue_content{border:1px solid #dfc780; border-radius:2px; margin-top:10px;padding:15px;*margin-top:0; background-color:#fefff6;}
+.yuyue .yuyue_box .yuyue_content p{line-height:22px; padding:10px; background-color:#eaebe3;_background-color:none; margin-bottom:15px; font-size:12px;}
+.yuyue .yuyue_box .yuyue_content table{width:860px;  line-height:22px; table-layout:fixed; }
+/*.yuyue .yuyue_box .yuyue_content table td{font-size:14px; padding:5px 0;}*/
+.yuyue .yuyue_box .yuyue_content table input{ height:20px; /*border:1px solid #d9d9d9;*/ /*width:198px*/; margin:5px 0; padding:0 5px}
+.yuyue .yuyue_box .yuyue_content.yuyue .yuyue_box .yuyue_content table input table select{ height:20px; border:1px solid #d9d9d9; width:50px; padding:1px;}
+.yuyue ul .yuyue_box  a.bt{height:28px; line-height:28px; background:url("../images/bt_tijiao.gif") repeat-x; padding:0 10px; border:1px solid #ad5a00; border-radius:5px; display:inline-block; color:#000; font-weight:bold; font-size:12px !important;}
+.yuyue ul .yuyue_box  a.bt_sytle1{position:absolute; right:15px; bottom:20px;}
+.yuyue .yuyue_box table td.quan input{width:120px; margin-right:15px; _word-break:break-all}
+.meituan_yuyue {background:url("../images/meituan_bg.gif") repeat-x;}
+.dazhong_yuyue {background:url("../images/dazhong_bg.gif") repeat-x;}
+.lashou_yuyue {background:url("../images/lashou_bg.gif") repeat-x;}
+.ftuan_yuyue {background:url("../images/ftuan_bg.gif") repeat-x;}
+.manzuo_yuyue {background:url("../images/manzuo_bg.gif") repeat-x;}
+.qunaer_yuyue {background:url("../images/qunaer_bg.gif") repeat-x;}
+.dida_yuyue {background:url("../images/dida_bg.gif") repeat-x;}
+.qianku_yuyue {background:url("../images/qianku_bg.gif") repeat-x;}
+.wowo_yuyue{background:url("../images/wowo_bg.gif") repeat-x;}
+.qq_yuyue{background:url("../images/qq_bg.gif") repeat-x #89B556;}
+.qq_yuyue img.logo {margin-top:0 !important;}
+.nuomi_yuyue{background:url("../images/nuomi_bg.gif") repeat-x;}
+.dingdan_xinxi table{width:400px;color:#000;}
+.dingdan_xinxi table th,.dingdan_xinxi table td{line-height:30px;padding:0 10px; height:30px;}
+.dingdan_xinxi table th{font-weight:bold; background-color:#f4f4f4;}
+.flow-steps{
+   /* position:absolute;*/
+    overflow: hidden;
+   /* margin: 20px 0;*/
+    clear:both
+}
+.flow-steps li{
+    float: left;
+    background: #EBEBEB url(/static/images/flow_steps_bg.png) no-repeat 100% 0;
+    font-size: 14px;
+    font-weight: bold;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    color: #404040;
+    padding: 0 15px 0 0;
+    overflow: hidden;
+    width:230px
+}
+.flow-steps-five li{
+    width:181px
+}
+.flow-steps-six li{
+    width:148px
+}
+.flow-steps li span{
+    color:#999;
+}
+.flow-steps li.current .first{
+    background-color: #690;
+    background-position: -12px -92px;
+    background: #690 url(/static/images/flow_steps_bg.png) no-repeat -12px -69px;
+}
+.flow-steps li.last{
+    background: #EBEBEB;
+}
+.flow-steps li.current{
+    background-color: #690;
+}
+.flow-steps li.current span{
+    color:#FFF;
+}
+.flow-steps li.done{
+    background-position:100% -23px;
+}
+/*预订步骤*/
+.jiage .price{
+    font-size: 18px;
+    margin-left: 5px;
+}
+.jiage .strike{
+    color: #999;
+    text-decoration: line-through;
+}

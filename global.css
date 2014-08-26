@@ -1,4 +1,4 @@
-﻿/* 全局样式表 最后修改日期20140505 */
+﻿/* 全局样式表 最后修改日期20140826 */
 
 /* reset */
 body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, fieldset, form, lengend, button, input, textarea, th, td {
@@ -337,7 +337,9 @@ input.text {
     vertical-align: middle;
     border: none;
 }
-
+.radio input{
+    margin-right: 3px;
+}
 .disabled {
     background-color: #F9F9F9;
     color: #999;
@@ -2913,6 +2915,9 @@ ul.tips a {
     min-height: 0;
     line-height: 1.4em;
     padding: 3px;
+    word-break:break-all;
+    white-space:normal;
+    overflow: hidden;
 }
 
 /* 疑问符 */

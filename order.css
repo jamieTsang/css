@@ -1,4 +1,4 @@
-﻿/* 订单页样式表 最后修改日期20140808 */
+﻿/* 订单页样式表 最后修改日期20140826 */
 
 /*sprite*/
 .pd_photoCont .btn,.forms .borderBox .destination i,.HotelDetail_slide .close,.pkg-circle-prev,.pkg-circle-next,.teamDetail .downloadList i{
@@ -1079,9 +1079,34 @@
 .accountInfo .traveler_hover .delete{
 	display:block;
 }
+.accountInfo
 .priceInfo .total{
 	margin-top:15px;
 	padding-left:15px;
+}
+.accountInfo .classify{
+    background: #690;
+    color: #FFF;
+    text-align: center;
+}
+.accountInfo .acInfo{
+    width: 290px;
+}
+.accountInfo .acInfoTable .certiType{
+    width: 100px;
+    margin-right: 5px;
+}
+.accountInfo .acInfoTable .dt{
+    /*width: 178px;*/
+    text-align: right;
+    width: 100px;
+}
+.accountInfo .acInfoTable .dd {
+    text-align: left;
+    padding-left: 15px;
+}
+.accountInfo .acInfoTable .dt,.accountInfo .acInfoTable .dd{
+    padding-bottom: 5px;
 }
 .priceInfo .total font{
 	font-weight:bold;
@@ -1090,6 +1115,7 @@
 .priceInfo .total .price{
 	font-size:16px;
 }
+
 /*填写旅客信息*/
 
 /*联系人信息*/
@@ -1174,6 +1200,9 @@
 .order .contract .input02{
 	width:170px;
 }
+.order .rgColumn{
+    overflow: visible;
+}
 /*填写订单页*/
 
 /*旅客须知*/
@@ -1196,7 +1225,7 @@
 	clear:both;
 }
 .final .submitBtn{
-	*position:relative;
+    *position:relative;
 }
 .final .submitBtn .quz{
 	*position:absolute;
