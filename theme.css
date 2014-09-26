@@ -22,6 +22,11 @@
 .yuyue .line li span.jiage{ width:110px; display:inline-block;}
 .yuyue .line li strong.line_price{font-size:18px; font-weight:bold; color:#cb0000;}
 .yuyue .line li a.bt{font-size:18px; display:inline-block; border:1px solid #d9d9d9; line-height:38px; background:url("../images/bt_yuyue.gif") repeat-x; padding:0 7px;}
+.yuyue .line .ProductInfo {width:940px; height:90px; border-bottom:1px #ccc dashed; margin:0 0 10px 0; position:relative;}
+.yuyue .line .ProductInfo .group_name {position:absolute; left:0px; top:10px; font:26px "Microsoft YaHei", SimSun; color:#333;}
+.yuyue .line .ProductInfo .group_name:hover {color:#690;}
+.yuyue .line .ProductInfo .group_price01 {position:absolute; left:13px; top:50px; font:16px "Microsoft YaHei", SimSun; color:#666; text-decoration:line-through;}
+.yuyue .line .ProductInfo .group_price02 {position:absolute; left:180px; top:50px; font:700 20px "Microsoft YaHei", SimSun; color:#E00003;}
 .yuyue .yuyue_box{width:910px; position:relative; margin-top:10px; clear:both;/**margin-left:-785px;*/}
 .yuyue .yuyue_box .tips{background:url("../images/tips_yuyue.gif") no-repeat; width:17px; height:8px;position:absolute; top:-7px; }
 .yuyue .yuyue_box .yuyue_content{border:1px solid #dfc780; border-radius:2px; margin-top:10px;padding:15px;*margin-top:0; background-color:#fefff6;}
