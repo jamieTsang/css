@@ -1,4 +1,4 @@
-﻿/* 订单页样式表 最后修改日期20140826 */
+﻿/* 订单页样式表 最后修改日期20150119 */
 
 /*sprite*/
 .pd_photoCont .btn,.forms .borderBox .destination i,.HotelDetail_slide .close,.pkg-circle-prev,.pkg-circle-next,.teamDetail .downloadList i{
@@ -73,7 +73,7 @@
 	background-color:#F4F4F4;
 }
 .detail .info .submitBtn{
-	height:50px;
+	height:35px;
 	margin-top:15px;
 }
 /*产品列表+详情页*/
@@ -202,7 +202,7 @@
 
 /*预订帮助*/
 .orderHelp{
-	margin-top:20px;
+	margin-top:10px;
 }
 .orderHelp .helpCont li{
 	float:left;
@@ -229,6 +229,9 @@
 }
 .orderHelp .caution .tips{
 	display:block;
+}
+.orderHelp .caution .tips li{
+    margin-bottom: 12px;
 }
 .orderHelp .tips{
 	display:none;
@@ -2253,4 +2256,12 @@
 .zytPay_common .S_MainBox .S_form li .S_loading {position:absolute; top:-70px; left:150px; width:240px; height:55px; background:#f5f5f5; border:1px #999 solid; border-radius:4px; -webkit-border-radius:4px; -moz-border-radius:4px;}
 .zytPay_common .S_MainBox .S_form li .S_loading .photo {width:220px; height:19px; margin:10px auto 0; background:url(http://www.gzl.com.cn/subject/images/zytForm_LoadingBar.gif);}
 .zytPay_common .S_MainBox .S_form li .S_loading p {font:14px "Microsoft YaHei", SimSun; color:#333; text-align:center;}
+
 /*自游通卡支付*/
+
+/*20150115线路详情修改*/
+.priceDeclaer .fl{
+    float: left;
+}
+
+/*20150115线路详情修改*/
